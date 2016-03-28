@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/subhashit_text"
+        android:id="@+id/subhashit_lable_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/subhashit_text_id"
+        android:layout_below="@+id/subhashit_lable_id"
+        android:layout_alignLeft="@+id/subhashit_lable_id"
+        android:layout_alignStart="@+id/subhashit_lable_id"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/subhashit_arth_text"
+        android:id="@+id/arth_lable_id"
+        android:layout_below="@+id/subhashit_text_id"
+        android:layout_alignLeft="@+id/subhashit_text_id"
+        android:layout_alignStart="@+id/subhashit_text_id"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/subhashit_arth_contents_id"
+        android:layout_below="@+id/arth_lable_id"
+        android:layout_alignLeft="@+id/arth_lable_id"
+        android:layout_alignStart="@+id/arth_lable_id"
+        android:layout_marginTop="26dp" />
+
+</RelativeLayout>

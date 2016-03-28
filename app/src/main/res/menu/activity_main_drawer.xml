@@ -3,26 +3,53 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/mukhya_paan"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery बौद्धिक पत्रक " >
+            android:title="मुख्य पान" />
+    </group>
 
-            <menu>
-                <item
-                    android:id="@+id/nav_share_child1"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Child 1" />
-                <item
-                    android:id="@+id/nav_send_child2"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="Child 2" />
-            </menu>
+
+        <!--<item
+            android:id="@+id/april_16"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="एप्रील २०१६">
+
+        </item>-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/april_16"
+            android:title="एप्रील २०१६"
+            android:enabled="false"
+            >
 
         </item>
+        <item
+            android:id="@+id/april_16_sanghik"
+            android:icon="@drawable/ic_menu_share"
+            android:title="सांघिक गीत" />
+        <item
+            android:id="@+id/april_16_vaiyaktik"
+            android:icon="@drawable/ic_menu_send"
+            android:title="वैयक्तीक गीत" />
+
+        <item
+            android:id="@+id/april_16_bodhkatha"
+            android:icon="@drawable/ic_menu_share"
+            android:title="बोधकथा" />
+        <item
+            android:id="@+id/april_16_subhashit"
+            android:icon="@drawable/ic_menu_send"
+            android:title="सुभाषीत" />
+
+        <item
+            android:id="@+id/april_16_amrut"
+            android:icon="@drawable/ic_menu_share"
+            android:title="अम्रुत वचन" />
+        <item
+            android:id="@+id/april_16_nirop"
+            android:icon="@drawable/ic_menu_send"
+            android:title="निरोप/व्रुत्त" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
