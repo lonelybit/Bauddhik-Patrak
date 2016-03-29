@@ -15,14 +15,23 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="26dp" />
 
-    <TextView
+
+
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/parichched_contents"
-        android:layout_marginTop="26dp"
+        android:id="@+id/scrollView2"
         android:layout_below="@+id/parichched_lable_id"
         android:layout_alignLeft="@+id/parichched_lable_id"
-        android:layout_alignStart="@+id/parichched_lable_id" />
+        android:layout_alignStart="@+id/parichched_lable_id"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/parichched_contents"
+            android:layout_marginTop="26dp" />
+    </ScrollView>
 </RelativeLayout>

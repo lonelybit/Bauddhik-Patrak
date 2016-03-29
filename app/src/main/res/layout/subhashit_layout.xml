@@ -37,15 +37,24 @@
         android:layout_alignStart="@+id/subhashit_text_id"
         android:layout_marginTop="32dp" />
 
-    <TextView
+
+
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/subhashit_arth_contents_id"
+        android:id="@+id/scrollView3"
         android:layout_below="@+id/arth_lable_id"
         android:layout_alignLeft="@+id/arth_lable_id"
         android:layout_alignStart="@+id/arth_lable_id"
-        android:layout_marginTop="26dp" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/subhashit_arth_contents_id"
+            android:layout_marginTop="26dp" />
+    </ScrollView>
 
 </RelativeLayout>
