@@ -5,7 +5,7 @@
     android:background="@drawable/side_nav_bar"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingBottom="4dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -20,17 +20,24 @@
         android:src="@drawable/baudhikpatrak_icon" />-->
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="@string/masik_baudhik_patrak_text"
+        android:id="@+id/textView2" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="मासीक बौद्धिक पत्रक"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        android:text="@string/rss_sinhgad_bhag"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-        android:text="राष्ट्रीय स्वयंसेवक संघ, सिंहगड भाग, पुणे" />
+        android:text="@string/khajagi_vitaran_disclaimer" />
 
 </LinearLayout>

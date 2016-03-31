@@ -86,8 +86,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         int groupId = item.getGroupId();
-        if (groupId == R.id.april_2016_group) {
-            handleApril2016Contents(id);
+        switch (groupId) {
+            case R.id.april_2016_group :
+                handleApril2016Contents(item);
+                break;
+            case R.id.may_2016_group :
+                handleMay2016Contents(item);
+                break;
         }
 
 
@@ -112,7 +117,13 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void handleApril2016Contents(int id) {
+    /**
+     * April 2016 Content Rendering method
+     *
+     * @param item
+     */
+    private void handleApril2016Contents(MenuItem item) {
+        int id = item.getItemId();
         LayoutInflater layoutInflater = getLayoutInflater();
         RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
         switch (id) {
@@ -196,24 +207,126 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.mukhya_paan :
 
-                View view = layoutInflater.inflate(R.layout.mukhya_paan_layout,
-                        mainContentLayout, false);
-                mainContentLayout.removeAllViewsInLayout();
-                mainContentLayout.addView(view);
-                //TextView dynamicContentsView1 = (TextView) findViewById(R.id.dynamic_contents);
-                //dynamicContentsView1.setText(R.string.mukhya_paan_mahiti);
-                TextView mukyaPaanTitle = (TextView)findViewById(R.id.mukya_paan_title_id);
-                mukyaPaanTitle.setText(R.string.mukhya_paan_mahiti_title);
-
-                TextView mukyaPaanSubTitle = (TextView)findViewById(R.id.mukya_paan_subtitle_id);
-                mukyaPaanSubTitle.setText(R.string.mukhya_paan_mahiti_subtitle);
-
-                TextView mukyaPaanContents = (TextView)findViewById(R.id.mukya_paan_contents_id);
-                mukyaPaanContents.setText(R.string.mukhya_paan_mahiti_contents);
+                renderMukhyaPaan(layoutInflater, mainContentLayout);
                 break;
             default:
 
 
         }
+    }
+
+    /**
+     * May 2016 Content Rendering method
+     *
+     * @param item
+     */
+    private void handleMay2016Contents(MenuItem item) {
+        int id = item.getItemId();
+        LayoutInflater layoutInflater = getLayoutInflater();
+        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
+        switch (id) {
+            case R.id.may_16_amrut :
+                Logger.getLogger("MainActivity").info("Clicked for Amrutvachan in may 2016");
+
+                View amrutview = layoutInflater.inflate(R.layout.parichched_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(amrutview);
+
+                TextView amrutTitle = (TextView)findViewById(R.id.parichched_lable_id);
+                amrutTitle.setText(R.string.amrut_vachan_text);
+                TextView amrutContents = (TextView)findViewById(R.id.parichched_contents);
+                amrutContents.setText(R.string.may_2016_amrut);
+
+
+                break;
+            case R.id.may_16_bodhkatha :
+                View bodhkathaView = layoutInflater.inflate(R.layout.parichched_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(bodhkathaView);
+
+                TextView bothkathaTitle = (TextView)findViewById(R.id.parichched_lable_id);
+                bothkathaTitle.setText(R.string.bodhkatha_text);
+                TextView bodhkathaContents = (TextView)findViewById(R.id.parichched_contents);
+                bodhkathaContents.setText(R.string.may_2016_bodhkatha);
+                break;
+            case R.id.may_16_nirop :
+
+                View niropView = layoutInflater.inflate(R.layout.parichched_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(niropView);
+                break;
+            case R.id.may_16_sanghik :
+
+                View sanghikGeetView = layoutInflater.inflate(R.layout.geet_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(sanghikGeetView);
+                TextView geetTypeTitle = (TextView)findViewById(R.id.geet_type_lable);
+                geetTypeTitle.setText(R.string.sanghik_geet_text);
+
+                TextView geetTitle = (TextView)findViewById(R.id.geet_title);
+                geetTitle.setText(R.string.may_2016_sanghik_geet_title);
+
+                TextView sanghikGeetContents = (TextView)findViewById(R.id.geet_contents);
+                sanghikGeetContents.setText(R.string.may_2016_sanghik_geet);
+                break;
+
+            case R.id.may_16_vaiyaktik :
+
+                View vaiyaktikGeetView = layoutInflater.inflate(R.layout.geet_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(vaiyaktikGeetView);
+
+
+                TextView geetTypeTitle1 = (TextView)findViewById(R.id.geet_type_lable);
+                geetTypeTitle1.setText(R.string.vaiyaktik_geet_text);
+
+                TextView geetTitle1 = (TextView)findViewById(R.id.geet_title);
+                geetTitle1.setText(R.string.may_2016_vaiyaktik_geet_title);
+
+                TextView vGeetContents = (TextView)findViewById(R.id.geet_contents);
+                vGeetContents.setText(R.string.may_2016_vaiyaktik_geet);
+                break;
+            case R.id.may_16_subhashit :
+                View subhashittView = layoutInflater.inflate(R.layout.subhashit_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(subhashittView);
+
+                TextView subhashit = (TextView)findViewById(R.id.subhashit_text_id);
+                subhashit.setText(R.string.may_2016_subhshit);
+
+                TextView subhashitArth = (TextView)findViewById(R.id.subhashit_arth_contents_id);
+                subhashitArth.setText(R.string.may_2016_subhshit_arth);
+                break;
+            case R.id.mukhya_paan :
+
+                renderMukhyaPaan(layoutInflater, mainContentLayout);
+                break;
+            default:
+
+
+        }
+    }
+
+    private void renderMukhyaPaan(LayoutInflater layoutInflater, RelativeLayout mainContentLayout) {
+        View view = layoutInflater.inflate(R.layout.mukhya_paan_layout,
+                mainContentLayout, false);
+        mainContentLayout.removeAllViewsInLayout();
+        mainContentLayout.addView(view);
+        //TextView dynamicContentsView1 = (TextView) findViewById(R.id.dynamic_contents);
+        //dynamicContentsView1.setText(R.string.mukhya_paan_mahiti);
+        TextView mukyaPaanTitle = (TextView)findViewById(R.id.mukya_paan_title_id);
+        mukyaPaanTitle.setText(R.string.mukhya_paan_mahiti_title);
+
+        TextView mukyaPaanSubTitle = (TextView)findViewById(R.id.mukya_paan_subtitle_id);
+        mukyaPaanSubTitle.setText(R.string.mukhya_paan_mahiti_subtitle);
+
+        TextView mukyaPaanContents = (TextView)findViewById(R.id.mukya_paan_contents_id);
+        mukyaPaanContents.setText(R.string.mukhya_paan_mahiti_contents);
     }
 }

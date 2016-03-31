@@ -50,14 +50,50 @@
             android:id="@+id/april_16_nirop"
             android:icon="@drawable/ic_menu_send"
             android:title="निरोप/व्रुत्त" />
-        <item
+        <!--<item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Slideshow" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Tools" />-->
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/may_2016_group">
+        <item
+            android:id="@+id/may_16"
+            android:title="मे २०१६"
+            android:enabled="false"
+            >
+
+        </item>
+        <item
+            android:id="@+id/may_16_sanghik"
+            android:icon="@drawable/ic_menu_share"
+            android:title="सांघिक गीत" />
+        <item
+            android:id="@+id/may_16_vaiyaktik"
+            android:icon="@drawable/ic_menu_send"
+            android:title="वैयक्तीक गीत" />
+
+        <item
+            android:id="@+id/may_16_bodhkatha"
+            android:icon="@drawable/ic_menu_share"
+            android:title="बोधकथा" />
+        <item
+            android:id="@+id/may_16_subhashit"
+            android:icon="@drawable/ic_menu_send"
+            android:title="सुभाषीत" />
+
+        <item
+            android:id="@+id/may_16_amrut"
+            android:icon="@drawable/ic_menu_share"
+            android:title="अम्रुत वचन" />
+        <item
+            android:id="@+id/may_16_nirop"
+            android:icon="@drawable/ic_menu_send"
+            android:title="निरोप/व्रुत्त" />
     </group>
 
     <item android:title="Communicate" >
