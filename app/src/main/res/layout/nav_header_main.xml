@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:text="@string/masik_baudhik_patrak_text"
+        android:text="@string/shakha_pustika_text"
         android:id="@+id/textView2" />
 
     <TextView

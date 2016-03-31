@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">बौद्धिक पत्रक</string>
+    <string name="app_name">शाखा पुस्तिका</string>
 
+    <string name="shakha_pustika_text">शाखा पुस्तिका</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
