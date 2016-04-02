@@ -13,7 +13,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="26dp" />
+        android:layout_marginTop="26dp"
+        android:textColor="@color/appTitleBlue" />
 
 
 
@@ -30,8 +31,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Small Text"
+            android:text="Small Text - This is some longer text added to check how the text wrapping works and how the look n feel is, margins etc are visible in edit mode only i.e. without getting the actual contents."
             android:id="@+id/parichched_contents"
-            android:layout_marginTop="26dp" />
+            android:layout_marginTop="26dp"
+            android:textColor="@android:color/black" />
     </ScrollView>
 </RelativeLayout>

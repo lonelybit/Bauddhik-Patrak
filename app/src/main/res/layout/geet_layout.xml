@@ -28,18 +28,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Small Text"
+            android:text="Small Text - This is going to be center aligned and longer text to check hot it will get rendered at runtime"
             android:id="@+id/geet_contents"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="18dp"
+            android:textColor="@android:color/black"
+            android:padding="5dp" />
     </ScrollView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Medium Text"
+        android:text="Medium Text - Some long geet title can go here"
         android:id="@+id/geet_title"
         android:layout_below="@+id/geet_type_lable"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/appTitleBlue"
+        android:padding="5dp" />
 
 
 

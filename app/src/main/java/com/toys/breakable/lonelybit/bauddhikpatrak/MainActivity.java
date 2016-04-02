@@ -1,5 +1,6 @@
 package com.toys.breakable.lonelybit.bauddhikpatrak;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,9 +14,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity
@@ -87,6 +94,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         int groupId = item.getGroupId();
         switch (groupId) {
+            case R.id.common_group :
+                handleStaticContents(item);
+                break;
             case R.id.april_2016_group :
                 handleApril2016Contents(item);
                 break;
@@ -115,6 +125,26 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void handleStaticContents(MenuItem item) {
+        int id = item.getItemId();
+        LayoutInflater layoutInflater = getLayoutInflater();
+        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
+        switch (id) {
+            case R.id.mukhya_paan :
+
+                renderMukhyaPaan(layoutInflater, mainContentLayout);
+                break;
+            case R.id.bhag_karyakarini_menu :
+
+                renderBhagKaryakarini(layoutInflater, mainContentLayout);
+                break;
+            case R.id.nagar_karyakarini_menu :
+
+                renderNagarKaryakarini(layoutInflater, mainContentLayout);
+                break;
+        }
     }
 
     /**
@@ -205,14 +235,43 @@ public class MainActivity extends AppCompatActivity
                 TextView subhashitArth = (TextView)findViewById(R.id.subhashit_arth_contents_id);
                 subhashitArth.setText(R.string.april_2016_subhshit_arth);
                 break;
-            case R.id.mukhya_paan :
-
-                renderMukhyaPaan(layoutInflater, mainContentLayout);
-                break;
             default:
 
 
         }
+    }
+
+    private void renderNagarKaryakarini(LayoutInflater layoutInflater,
+                                        RelativeLayout mainContentLayout) {
+        // TODO
+    }
+
+    private void renderBhagKaryakarini(LayoutInflater layoutInflater,
+                                       RelativeLayout mainContentLayout) {
+        // TODO
+        View view = layoutInflater.inflate(R.layout.karyakarini_layout,
+                mainContentLayout, false);
+        mainContentLayout.removeAllViewsInLayout();
+        mainContentLayout.addView(view);
+        ListView listView = (ListView) view.findViewById(R.id.karyakariniListView);
+
+        List<Karyakarta> karyakartas = new ArrayList<>();
+
+        Resources res = getResources();
+
+        Karyakarta bhagSanghachalak = new Karyakarta("", res.getString(R.string.bhag_sanghachalak_name),
+                res.getString(R.string.bhag_sanghachalak_number), res.getString(R.string.bhag_sanghachalak_email),
+                res.getString(R.string.bhag_sanghachalak));
+        karyakartas.add(bhagSanghachalak);
+
+        Karyakarta bhagKaryavah = new Karyakarta("", res.getString(R.string.bhag_karyavah_name),
+                res.getString(R.string.bhag_karyavah_number), res.getString(R.string.bhag_karyavah_email),
+                res.getString(R.string.bhag_karyavaah));
+        karyakartas.add(bhagKaryavah);
+
+        KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
+
+        listView.setAdapter(karyakartaAdapter);
     }
 
     /**

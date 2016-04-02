@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vivekanand_nagar_text">विवेकानंद नगर</string>
+    <string name="viththalwadi_nagar_text">विठ्ठलवाडी नगर</string>
+    <string name="vadgaav_nagar_text">वडगाव नगर</string>
+    <string name="dhayari_nagar_text">धायरी नगर</string>
+    <string name="nanded_nagar_text">नांदेड नगर</string>
+</resources>

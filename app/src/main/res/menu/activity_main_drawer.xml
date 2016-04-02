@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"  android:id="@+id/common_group">
         <item
             android:id="@+id/mukhya_paan"
             android:icon="@drawable/ic_menu_camera"
-            android:title="मुख्य पान" />
+            android:title="@string/mukhya_paan_text" />
+        <item
+            android:id="@+id/bhag_karyakarini_menu"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/bhag_karyakarini_text" />
+        <item
+            android:id="@+id/nagar_karyakarini_menu"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/nagar_karyakarini_text" />
     </group>
 
 
@@ -20,8 +28,7 @@
         <item
             android:id="@+id/april_16"
             android:title="एप्रील २०१६"
-            android:enabled="false"
-            >
+            android:enabled="false">
 
         </item>
         <item
