@@ -189,6 +189,12 @@ public class MainActivity extends AppCompatActivity
                         mainContentLayout, false);
                 mainContentLayout.removeAllViewsInLayout();
                 mainContentLayout.addView(niropView);
+
+                TextView niropTitle = (TextView)findViewById(R.id.parichched_lable_id);
+                niropTitle.setText(R.string.nirop_vrutta_text);
+                TextView niropText = (TextView)findViewById(R.id.parichched_contents);
+                niropText.setText(R.string.april_2016_nirop);
+
                 break;
             case R.id.april_16_sanghik :
 
@@ -268,6 +274,17 @@ public class MainActivity extends AppCompatActivity
                 res.getString(R.string.bhag_karyavah_number), res.getString(R.string.bhag_karyavah_email),
                 res.getString(R.string.bhag_karyavaah));
         karyakartas.add(bhagKaryavah);
+
+        Karyakarta bhagSahKaryavah1 = new Karyakarta("", res.getString(R.string.bhag_sah_karyavah1_name),
+                res.getString(R.string.bhag_sah_karyavah1_number), res.getString(R.string.bhag_sah_karyavah1_email),
+                res.getString(R.string.bhag_sahkaryavaah));
+        karyakartas.add(bhagSahKaryavah1);
+
+
+        Karyakarta bhagSahKaryavah2 = new Karyakarta("", res.getString(R.string.bhag_sah_karyavah2_name),
+                res.getString(R.string.bhag_sah_karyavah2_number), res.getString(R.string.bhag_sah_karyavah2_email),
+                res.getString(R.string.bhag_sahkaryavaah));
+        karyakartas.add(bhagSahKaryavah2);
 
         KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
 

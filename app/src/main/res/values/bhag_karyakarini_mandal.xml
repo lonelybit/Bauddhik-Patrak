@@ -4,7 +4,15 @@
     <string name="bhag_sanghachalak_number">9422083402</string>
     <string name="bhag_sanghachalak_email">lelemv@yahoo.com</string>
 
-    <string name="bhag_karyavah_name">श्री. महेश विष्णू लेले</string>
-    <string name="bhag_karyavah_number">9422083402</string>
-    <string name="bhag_karyavah_email">lelemv@yahoo.com</string>
+    <string name="bhag_karyavah_name">री. आनंद सुधीर कुलकर्णी</string>
+    <string name="bhag_karyavah_number">9823962700</string>
+    <string name="bhag_karyavah_email">anandkulkarni80@yahoo.com</string>
+
+    <string name="bhag_sah_karyavah1_name">श्री. सचिन भगवान भोसले</string>
+    <string name="bhag_sah_karyavah1_number">9850907465</string>
+    <string name="bhag_sah_karyavah1_email">sachinbhosale14@gmail.com</string>
+
+    <string name="bhag_sah_karyavah2_name"> श्री. जयदीप अनंत धर्माधिकारी</string>
+    <string name="bhag_sah_karyavah2_number">9967899701</string>
+    <string name="bhag_sah_karyavah2_email">jaydip19@gmail.com</string>
 </resources>
