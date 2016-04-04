@@ -286,6 +286,91 @@ public class MainActivity extends AppCompatActivity
                 res.getString(R.string.bhag_sahkaryavaah));
         karyakartas.add(bhagSahKaryavah2);
 
+        Karyakarta bhagShaShiPra = new Karyakarta("", res.getString(R.string.bhag_sha_shi_pra_name),
+                res.getString(R.string.bhag_sha_shi_pra_number), res.getString(R.string.bhag_sha_shi_pra_email),
+                res.getString(R.string.bhag_sha_shi_pra));
+        karyakartas.add(bhagShaShiPra);
+
+        Karyakarta bhagBP = new Karyakarta("", res.getString(R.string.bhag_bauddhik_pra_name),
+                res.getString(R.string.bhag_bauddhik_pra_number), res.getString(R.string.bhag_bauddhik_pra_email),
+                res.getString(R.string.bhag_bauddhik_pra));
+        karyakartas.add(bhagBP);
+
+        Karyakarta bhagVyavasthaPra = new Karyakarta("", res.getString(R.string.bhag_vyavastha_pra_name),
+                res.getString(R.string.bhag_vyavastha_pra_number), res.getString(R.string.bhag_vyavastha_pra_email),
+                res.getString(R.string.bhag_vyavastha_pra));
+        karyakartas.add(bhagVyavasthaPra);
+
+        Karyakarta bhagKaryalayPra = new Karyakarta("", res.getString(R.string.bhag_karyalay_pra_name),
+                res.getString(R.string.bhag_karyalay_pra_number), res.getString(R.string.bhag_karyalay_pra_email),
+                res.getString(R.string.bhag_karyalay_pra));
+        karyakartas.add(bhagKaryalayPra);
+
+        Karyakarta bhagMahaVidyaPra = new Karyakarta("", res.getString(R.string.bhag_maha_vidyarthi_pra_name),
+                res.getString(R.string.bhag_maha_vidyarthi_pra_number), res.getString(R.string.bhag_maha_vidyarthi_pra_email),
+                res.getString(R.string.bhag_maha_vid_pra));
+        karyakartas.add(bhagMahaVidyaPra);
+
+        Karyakarta bhagITVyavsayiPra = new Karyakarta("", res.getString(R.string.bhag_it_vyavsayi_pra_name),
+                res.getString(R.string.bhag_it_vyavsayi_pra_number), res.getString(R.string.bhag_it_vyavsayi_pra_email),
+                res.getString(R.string.bhag_it_vyavsayi_pra));
+        karyakartas.add(bhagITVyavsayiPra);
+
+        Karyakarta bhagSevaPra = new Karyakarta("", res.getString(R.string.bhag_seva_shikshan_pra_name),
+                res.getString(R.string.bhag_seva_shikshan_pra_number), res.getString(R.string.bhag_seva_shikshan_pra_email),
+                res.getString(R.string.bhag_seva_shikshan_pra));
+        karyakartas.add(bhagSevaPra);
+
+        Karyakarta bhagPracharPra = new Karyakarta("", res.getString(R.string.bhag_prachar_pra_name),
+                res.getString(R.string.bhag_prachar_pra_number), res.getString(R.string.bhag_prachar_pra_email),
+                res.getString(R.string.bhag_prachar_pra));
+        karyakartas.add(bhagPracharPra);
+
+        Karyakarta bhagSamparkaPra = new Karyakarta("", res.getString(R.string.bhag_samparka_pra_name),
+                res.getString(R.string.bhag_samparka_pra_number), res.getString(R.string.bhag_samparka_pra_email),
+                res.getString(R.string.bhag_sampark_pra));
+        karyakartas.add(bhagSamparkaPra);
+
+        Karyakarta bhagDharmaPra = new Karyakarta("", res.getString(R.string.bhag_dharmajagaran_pra_name),
+                res.getString(R.string.bhag_dharmajagaran_pra_number), res.getString(R.string.bhag_dharmajagaran_pra_email),
+                res.getString(R.string.bhag_dharmajagaran_pra));
+        karyakartas.add(bhagDharmaPra);
+
+        Karyakarta bhagSahDharmaPra = new Karyakarta("", res.getString(R.string.bhag_sah_dharmajagaran_pra_name),
+                res.getString(R.string.bhag_sah_dharmajagaran_pra_number), res.getString(R.string.bhag_sah_dharmajagaran_pra_email),
+                res.getString(R.string.bhag_sah_dharmajagaran_pra));
+        karyakartas.add(bhagSahDharmaPra);
+
+        Karyakarta bhagGhoshPra = new Karyakarta("", res.getString(R.string.bhag_ghosh_pra_name),
+                res.getString(R.string.bhag_ghosh_pra_number), res.getString(R.string.bhag_ghosh_pra_email),
+                res.getString(R.string.bhag_ghosh_pra));
+        karyakartas.add(bhagGhoshPra);
+
+        Karyakarta bhagKutumbPra = new Karyakarta("", res.getString(R.string.bhag_kutumb_prabodhan_pra_name),
+                res.getString(R.string.bhag_kutumb_prabodhan_pra_number), res.getString(R.string.bhag_kutumb_prabodhan_pra_email),
+                res.getString(R.string.bhag_kutumb_prabodhan_pra));
+        karyakartas.add(bhagKutumbPra);
+
+        Karyakarta bhagGramVikasPra = new Karyakarta("", res.getString(R.string.bhag_gram_vikas_pra_name),
+                res.getString(R.string.bhag_gram_vikas_pra_number), res.getString(R.string.bhag_gram_vikas_pra_email),
+                res.getString(R.string.bhag_gramvikas_pra));
+        karyakartas.add(bhagGramVikasPra);
+
+        Karyakarta bhagGoSevaPra = new Karyakarta("", res.getString(R.string.bhag_goseva_pra_name),
+                res.getString(R.string.bhag_goseva_pra_number), res.getString(R.string.bhag_goseva_pra_email),
+                res.getString(R.string.bhag_go_seva_pra));
+        karyakartas.add(bhagGoSevaPra);
+
+        Karyakarta bhagSamarasataPra = new Karyakarta("", res.getString(R.string.bhag_samarasata_pra_name),
+                res.getString(R.string.bhag_samarasata_pra_number), res.getString(R.string.bhag_samarasata_pra_email),
+                res.getString(R.string.bhag_samarasata_pra));
+        karyakartas.add(bhagSamarasataPra);
+
+        Karyakarta bhagMandalSadasya = new Karyakarta("", res.getString(R.string.bhag_sadasya_pra_name),
+                res.getString(R.string.bhag_sadasya_pra_number), res.getString(R.string.bhag_sadasya_pra_email),
+                res.getString(R.string.bhag_sadasya1));
+        karyakartas.add(bhagMandalSadasya);
+
         KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
 
         listView.setAdapter(karyakartaAdapter);
