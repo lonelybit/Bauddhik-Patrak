@@ -3,20 +3,17 @@ package com.toys.breakable.lonelybit.bauddhikpatrak;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -40,8 +37,13 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "हिंदी बौद्धिक पत्रक", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, R.string.abhipray, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.ithe_kalava_text, new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                
+                            }
+                        }).show();
             }
         });
 
@@ -153,6 +155,7 @@ public class MainActivity extends AppCompatActivity
      * @param item
      */
     private void handleApril2016Contents(MenuItem item) {
+        updateMainPageTitle(R.string.april_2016);
         int id = item.getItemId();
         LayoutInflater layoutInflater = getLayoutInflater();
         RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
@@ -250,11 +253,14 @@ public class MainActivity extends AppCompatActivity
     private void renderNagarKaryakarini(LayoutInflater layoutInflater,
                                         RelativeLayout mainContentLayout) {
         // TODO
+        updateMainPageTitle(R.string.nagar_karyakarini_text);
     }
 
     private void renderBhagKaryakarini(LayoutInflater layoutInflater,
                                        RelativeLayout mainContentLayout) {
-        // TODO
+
+        updateMainPageTitle(R.string.bhag_karyakarini_text);
+
         View view = layoutInflater.inflate(R.layout.karyakarini_layout,
                 mainContentLayout, false);
         mainContentLayout.removeAllViewsInLayout();
@@ -376,12 +382,19 @@ public class MainActivity extends AppCompatActivity
         listView.setAdapter(karyakartaAdapter);
     }
 
+    private void updateMainPageTitle(int mainPageTitleText) {
+        //TextView mainPageTitle = (TextView) findViewById(R.id.main_page_title);
+        //mainPageTitle.setText(mainPageTitleText);
+        getSupportActionBar().setTitle(getResources().getString(mainPageTitleText));
+    }
+
     /**
      * May 2016 Content Rendering method
      *
      * @param item
      */
     private void handleMay2016Contents(MenuItem item) {
+        updateMainPageTitle(R.string.may_2016);
         int id = item.getItemId();
         LayoutInflater layoutInflater = getLayoutInflater();
         RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
@@ -475,6 +488,9 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void renderMukhyaPaan(LayoutInflater layoutInflater, RelativeLayout mainContentLayout) {
+
+        updateMainPageTitle(R.string.shakha_pustika_text);
+
         View view = layoutInflater.inflate(R.layout.mukhya_paan_layout,
                 mainContentLayout, false);
         mainContentLayout.removeAllViewsInLayout();

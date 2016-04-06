@@ -20,6 +20,8 @@
     <string name="sanghik_geet_text">सांघिक गीत</string>
     <string name="vaiyaktik_geet_text">वैयक्तिक गीत</string>
     <string name="nirop_vrutta_text">निरोप व इतर वृत्त</string>
+    <string name="abhipray">अभिप्राय?</string>
+    <string name="ithe_kalava_text">इथे पाठवा</string>
 
 
     <string name="mukhya_paan_mahiti_title">
@@ -59,4 +61,7 @@
     <string name="bhag_go_seva_pra">गोसेवा</string>
     <string name="bhag_samarasata_pra">समरसता</string>
     <string name="bhag_sadasya1">भाग कार्यकारिणी सदस्य</string>
+
+    <string name="april_2016">एप्रील २०१६</string>
+    <string name="may_2016">मे २०१६</string>
 </resources>

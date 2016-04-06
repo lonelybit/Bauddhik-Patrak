@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:text="@string/shakha_pustika_text"
-        android:id="@+id/textView2" />
+        android:id="@+id/main_page_title" />
 
     <TextView
         android:layout_width="match_parent"
