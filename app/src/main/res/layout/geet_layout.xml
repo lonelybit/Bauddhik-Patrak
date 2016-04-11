@@ -13,9 +13,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp" />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:id="@+id/scrollView"
         android:layout_below="@+id/geet_title"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp">
+        android:layout_marginTop="1dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

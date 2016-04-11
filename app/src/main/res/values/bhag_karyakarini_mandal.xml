@@ -16,71 +16,72 @@
     <string name="bhag_sah_karyavah2_number">9967899701</string>
     <string name="bhag_sah_karyavah2_email">jaydip19@gmail.com</string>
 
-    <string name="bhag_sha_shi_pra_name"> श्री.आमोद दतात्रय कालगावकर</string>
-    <string name="bhag_sha_shi_pra_number">9665476640</string>
-    <string name="bhag_sha_shi_pra_email">amod_27@yahoo.co.in</string>
+    <string name="bhag_shashi_name">श्री. आमोद दत्तात्रय कालगावकर</string>
+    <string name="bhag_shashi_number">9665476640</string>
+    <string name="bhag_shashi_email">amod_27@yahoo.co.in</string>
 
-    <string name="bhag_bauddhik_pra_name"> श्री.महेंद्र जयंत वाघ  </string>
-    <string name="bhag_bauddhik_pra_number">7350002460</string>
-    <string name="bhag_bauddhik_pra_email">wagh.mj@gmail.com</string>
+    <string name="bhag_boupra_name">श्री. महेंद्र जयंत वाघ</string>
+    <string name="bhag_boupra_number">7350002460</string>
+    <string name="bhag_boupra_email">wagh.mj@gmail.com</string>
 
-    <string name="bhag_vyavastha_pra_name"> श्री.मंगेश भास्करराव पाटील </string>
-    <string name="bhag_vyavastha_pra_number">9860367066</string>
-    <string name="bhag_vyavastha_pra_email"> mangesh_p2000@yahoo.com</string>
+    <string name="bhag_vyavastha_name">श्री. मंगेश भास्करराव पाटील</string>
+    <string name="bhag_vyavastha_number">9860367066</string>
+    <string name="bhag_vyavastha_email">mangesh_p2000@yahoo.com</string>
 
-    <string name="bhag_karyalay_pra_name"> श्री.शिवराम (तात्या) राजाराम रामदासी</string>
-    <string name="bhag_karyalay_pra_number">9422007877</string>
-    <string name="bhag_karyalay_pra_email">sbkaryalaya@gmail.com</string>
+    <string name="bhag_karyalaya_name">श्री. शिवराम (तात्या) राजाराम रामदासी</string>
+    <string name="bhag_karyalaya_number">9422007877</string>
+    <string name="bhag_karyalaya_email">sbkaryalaya@gmail.com</string>
 
-    <string name="bhag_maha_vidyarthi_pra_name"> श्री.सुनील (नागेश) गंगाधर पाटील</string>
-    <string name="bhag_maha_vidyarthi_pra_number">9822965199</string>
-    <string name="bhag_maha_vidyarthi_pra_email">sunil.g.patil1@gmail.com</string>
+    <string name="bhag_mahavidyalaya_name">श्री. सुनील (नागेश) गंगाधर पाटील</string>
+    <string name="bhag_mahavidyalaya_number">9822965199</string>
+    <string name="bhag_mahavidyalaya_email">sunil.g.patil1@gmail.com</string>
 
-    <string name="bhag_it_vyavsayi_pra_name"> श्री. विशाल ललित पाठक</string>
-    <string name="bhag_it_vyavsayi_pra_number">9764000338</string>
-    <string name="bhag_it_vyavsayi_pra_email">pvishal.80@gmail.com</string>
+    <string name="bhag_it_name">श्री. विशाल ललित पाठक</string>
+    <string name="bhag_it_number">9764000338</string>
+    <string name="bhag_it_email">pvishal.80@gmail.com</string>
 
-    <string name="bhag_seva_shikshan_pra_name"> श्री. गिरीश बाळकृष्ण देगावकर</string>
-    <string name="bhag_seva_shikshan_pra_number">9765560485</string>
-    <string name="bhag_seva_shikshan_pra_email">girishdegaonkar@hotmail.com</string>
+    <string name="bhag_seva_name">श्री. गिरीश बाळकृष्ण देगावकर</string>
+    <string name="bhag_seva_number">9765560485</string>
+    <string name="bhag_seva_email">girishdegaonkar@hotmail.com</string>
 
-    <string name="bhag_prachar_pra_name"> श्री. रामचंद्र (नंदन) श्रीधर पेंडसे</string>
-    <string name="bhag_prachar_pra_number">9822885475</string>
-    <string name="bhag_prachar_pra_email">nandanpendse54@gmail.com</string>
+    <string name="bhag_prachar_name">श्री. रामचंद्र (नंदन) श्रीधर पेंडसे</string>
+    <string name="bhag_prachar_number">9822885475</string>
+    <string name="bhag_prachar_email">nandanpendse54@gmail.com</string>
 
-    <string name="bhag_samparka_pra_name"> श्री.रवींद्र भालचंद्र शिंगणापूरकर</string>
-    <string name="bhag_samparka_pra_number">9822847237</string>
-    <string name="bhag_samparka_pra_email">sravindra2002@gmail.com</string>
+    <string name="bhag_samparka_name">श्री. रवींद्र भालचंद्र शिंगणापूरकर</string>
+    <string name="bhag_samparka_number">9822847237</string>
+    <string name="bhag_samparka_email">sravindra2002@gmail.com</string>
 
-    <string name="bhag_dharmajagaran_pra_name"> श्री.विवेक विलास कुलकर्णी</string>
-    <string name="bhag_dharmajagaran_pra_number">9545445454</string>
-    <string name="bhag_dharmajagaran_pra_email">vickey.kulkarni@gmail.com</string>
+    <string name="bhag_dharma_name">श्री विवेक विलास कुलकर्णी</string>
+    <string name="bhag_dharma_number">9545445454</string>
+    <string name="bhag_dharma_email">vickey.kulkarni@gmail.com</string>
 
-    <string name="bhag_sah_dharmajagaran_pra_name"> श्री. कुमार मनोहर न्हावले</string>
-    <string name="bhag_sah_dharmajagaran_pra_number">8087772727</string>
-    <string name="bhag_sah_dharmajagaran_pra_email">knhavale@gmail.com</string>
+    <string name="bhag_sah_dharma_name">श्री. कुमार मनोहर न्हावले</string>
+    <string name="bhag_sah_dharma_number">8087772727</string>
+    <string name="bhag_sah_dharma_email">knhavale@gmail.com</string>
 
-    <string name="bhag_ghosh_pra_name"> श्री.तन्मय अनिल खोपकर</string>
-    <string name="bhag_ghosh_pra_number">9552906868</string>
-    <string name="bhag_ghosh_pra_email">tanmaykhopkar33@gmail.com</string>
+    <string name="bhag_ghosh_name">श्री. तन्मय अनिल खोपकर</string>
+    <string name="bhag_ghosh_number">9552906868</string>
+    <string name="bhag_ghosh_email">tanmaykhopkar33@gmail.com</string>
 
-    <string name="bhag_kutumb_prabodhan_pra_name"> श्री.प्रवीण पुरुषोत्तम महामुनी</string>
-    <string name="bhag_kutumb_prabodhan_pra_number">8623813179</string>
-    <string name="bhag_kutumb_prabodhan_pra_email">praveen.mahamuni3@gmail.com</string>
+    <string name="bhag_sadasya_name">श्री. अरविंद दत्तात्रय मराठे </string>
+    <string name="bhag_sadasya_number">9422521676</string>
+    <string name="bhag_sadasya_email"></string>
 
-    <string name="bhag_gram_vikas_pra_name"> श्री.जितेंद्र दत्तात्रेय चंपानेरकर</string>
-    <string name="bhag_gram_vikas_pra_number">9960297122</string>
-    <string name="bhag_gram_vikas_pra_email">jitendradchampanerkar@rediffmail.com</string>
+    <string name="bhag_kutumba_name">श्री. प्रवीण पुरुषोत्तम महामुनी</string>
+    <string name="bhag_kutumba_number">8623813179</string>
+    <string name="bhag_kutumba_email">praveen.mahamuni3@gmail.com</string>
 
-    <string name="bhag_goseva_pra_name"> श्री. नारायण विठ्ठल चव्हाण</string>
-    <string name="bhag_goseva_pra_number">9922655522</string>
-    <string name="bhag_goseva_pra_email">chavannarayan99@gmail.com</string>
+    <string name="bhag_gram_name">श्री. जितेंद्र दत्तात्रेय चंपानेरकर</string>
+    <string name="bhag_gram_number">9960297122</string>
+    <string name="bhag_gram_email">jitendradchampanerkar@rediffmail.com</string>
 
-    <string name="bhag_samarasata_pra_name"> श्री. सुनिल मधुकर राउत</string>
-    <string name="bhag_samarasata_pra_number">9921669551</string>
-    <string name="bhag_samarasata_pra_email">sunilmraut@gmail.com</string>
+    <string name="bhag_gouseva_name">श्री. नारायण विठ्ठल चव्हाण</string>
+    <string name="bhag_gouseva_number">9922655522</string>
+    <string name="bhag_gouseva_email">chavannarayan99@gmail.com</string>
 
-    <string name="bhag_sadasya_pra_name"> श्री.अरविंद दत्तात्रय मराठे</string>
-    <string name="bhag_sadasya_pra_number">9422521676</string>
-    <string name="bhag_sadasya_pra_email">-</string>
+    <string name="bhag_samarasata_name">श्री. सुनिल मधुकर राउत</string>
+    <string name="bhag_samarasata_number">9921669551</string>
+    <string name="bhag_samarasata_email">sunilmraut@gmail.com</string>
+
 </resources>

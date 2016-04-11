@@ -6,10 +6,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="masik_baudhik_patrak_text">मासिक बौद्धिक पत्रक </string>
+    <string name="masik_baudhik_patrak_text">मासिक शाखा पुस्तिका</string>
     <string name="rss_sinhgad_bhag"> राष्ट्रीय स्वयंसेवक संघ, सिंहगड भाग, पुणे. </string>
-    <string name="khajagi_vitaran_disclaimer">(केवळ खाजगी वितरणासाठी)</string>
-    <string name="baudhik_patrak_text">बौद्धिक पत्रक</string>
+    <string name="khajagi_vitaran_disclaimer">(केवळ वैयक्तिक  उपयोगासाठी)</string>
+    <string name="baudhik_patrak_text">शाखा पुस्तिका</string>
     <string name="mukhya_paan_text">मुख्य पान</string>
     <string name="bhag_karyakarini_text">भाग कार्यकारिणी</string>
     <string name="nagar_karyakarini_text">नगर कार्यकारिणी</string>
@@ -20,8 +20,12 @@
     <string name="sanghik_geet_text">सांघिक गीत</string>
     <string name="vaiyaktik_geet_text">वैयक्तिक गीत</string>
     <string name="nirop_vrutta_text">निरोप व इतर वृत्त</string>
+
     <string name="abhipray">अभिप्राय?</string>
     <string name="ithe_kalava_text">इथे पाठवा</string>
+    <string name="april_2016">एप्रील २०१६</string>
+    <string name="may_2016">मे २०१६</string>​​​​
+    <string name="patte_suchi_text">पत्ते सूची</string>
 
 
     <string name="mukhya_paan_mahiti_title">
@@ -32,12 +36,11 @@
     <string name="mukhya_paan_mahiti_subtitle">
         <![CDATA[
              सिंहगड भाग, पुणे
-                मासीक बौद्धिक पत्रक
         ]]>
     </string>
     <string name="mukhya_paan_mahiti_contents">
         <![CDATA[
-                    मुख्य पान
+                    वर्ष प्रतिपदेच्या हार्दिक सर्व स्वयंसेवकांना शुभेच्छा!!
         ]]>
     </string>
 
@@ -57,11 +60,25 @@
     <string name="bhag_sah_dharmajagaran_pra">भाग सह धर्मजागरण प्रमुख</string>
     <string name="bhag_ghosh_pra">भाग घोष प्रमुख</string>
     <string name="bhag_kutumb_prabodhan_pra">कुटुंब प्रबोधन</string>
-    <string name="bhag_gramvikas_pra">रामविकास</string>
+    <string name="bhag_gramvikas_pra">ग्रामविकास</string>
     <string name="bhag_go_seva_pra">गोसेवा</string>
     <string name="bhag_samarasata_pra">समरसता</string>
     <string name="bhag_sadasya1">भाग कार्यकारिणी सदस्य</string>
 
-    <string name="april_2016">एप्रील २०१६</string>
-    <string name="may_2016">मे २०१६</string>
+    <string name="nagar_sanghachalak">मा. नगर संघचालक</string>
+    <string name="nagar_karyavaah">नगर कार्यवाह</string>
+    <string name="nagar_sahkaryavaah">नगर सह कार्यवाह</string>
+    <string name="nagar_sha_shi_pra">नगर शारीरिक शिक्षण प्रमुख</string>
+    <string name="nagar_bauddhik_pra">नगर बौद्धिक प्रमुख</string>
+    <string name="nagar_vyavastha_pra">नगर व्यवथा प्रमुख</string>
+    <string name="nagar_sah_vyavastha_pra">नगर सह-व्यवथा प्रमुख</string>
+    <string name="nagar_maha_vid_pra">नगर महावियालयीन वियार्थी प्रमुख</string>
+    <string name="nagar_it_vyavsayi_pra">नगर वयावसायी प्रमुख</string>
+    <string name="nagar_seva_shikshan_pra">नगर सेवा शिक्षण प्रमुख</string>
+    <string name="nagar_prachar_pra">नगर प्रचार प्रमुख</string>
+    <string name="nagar_sampark_pra">नगर संपर्क प्रमुख</string>
+    <string name="nagar_dharmajagaran_pra">नगर धर्मजागरण प्रमुख</string>
+    <string name="nagar_sah_dharmajagaran_pra">नगर सह-धर्मजागरण प्रमुख</string>
+    <string name="nagar_vyavasayi_pra">नगर व्यवसायी प्रमुख</string>
+    <string name="nagar_ghosh_pra">नगर घोष प्रमुख</string>
 </resources>

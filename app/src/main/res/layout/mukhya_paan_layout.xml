@@ -11,7 +11,7 @@
         android:id="@+id/mukya_paan_title_id"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_marginTop="2dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,15 +21,16 @@
         android:id="@+id/mukya_paan_subtitle_id"
         android:layout_below="@+id/mukya_paan_title_id"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
+        android:layout_marginTop="1dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/mukhya_paan_mahiti_contents"
         android:id="@+id/mukya_paan_contents_id"
         android:layout_below="@+id/mukya_paan_subtitle_id"
         android:layout_centerHorizontal="true"
+        android:textStyle="italic"
         android:layout_marginTop="41dp" />
 </RelativeLayout>
