@@ -11,9 +11,12 @@
         <item
             android:id="@+id/nagar_karyakarini_menu"
             android:title="@string/nagar_karyakarini_text" />
-        <!--<item
+        <item
             android:id="@+id/patte_suchi_menu"
-            android:title="@string/patte_suchi_text" />-->
+            android:title="@string/patte_suchi_text" />
+        <item
+            android:id="@+id/shakha_sahayika_menu"
+            android:title="@string/shakha_sahayika_text" />
     </group>
 
 

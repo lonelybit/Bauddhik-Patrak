@@ -26,6 +26,7 @@
     <string name="april_2016">एप्रील २०१६</string>
     <string name="may_2016">मे २०१६</string>​​​​
     <string name="patte_suchi_text">पत्ते सूची</string>
+    <string name="shakha_sahayika_text">शाखा सहायिका</string>
 
 
     <string name="mukhya_paan_mahiti_title">
@@ -81,4 +82,47 @@
     <string name="nagar_sah_dharmajagaran_pra">नगर सह-धर्मजागरण प्रमुख</string>
     <string name="nagar_vyavasayi_pra">नगर व्यवसायी प्रमुख</string>
     <string name="nagar_ghosh_pra">नगर घोष प्रमुख</string>
+
+
+    <string name="shakha_lavane_txt">
+         <![CDATA[शाखा लावणे
+\n\n-०-० (एक लांब एक आखूड, एक लांब, एक आखूड शिट्टी संकेत
+\n)१. संघ दक्ष
+\n२. आरम
+\n३. अग्रेसर
+\n४. अग्रेसर सम्यक
+\n५. अग्रेसर आरम
+\n६. संघ संपत
+\n७. संघ दक्ष
+\n८. संघ सम्यक
+\n९. अग्रेसर अर्धवृत
+\n१०. संघ आरम
+\n११. संघ दक्ष
+\n१२. ध्वज प्रणाम १,२,३
+\n१३. संख्या
+\n१४. आरम
+\n१५. संघ दक्ष
+\n१६. आरम
+\n१७. संघ दक्ष
+\n१८. स्वस्थान
+\n
+]]>
+    </string>
+    <string name="shakha_visarjan_txt">शाखा विसर्जन
+\n-००० (एक लांब ३ आखूड शिट्टी संकेत)
+\n१. अग्रेसर सम्यक
+\n२. अग्रेसर आरम
+\n-०० (एक लांब २ आखूड शिट्टी संकेत)
+\n३. संघ दक्ष
+\n४. संघ सम्यक
+\n५. अग्रेसर अर्धवृत
+\n६. संख्या
+\n७. आरम
+\n८. संघ दक्ष
+\n९. आरम
+\n१०. संघ दक्ष
+\n११. ध्वज प्रणाम १,२,३
+\n१२. संघ वीकिर</string>
+
+
 </resources>
