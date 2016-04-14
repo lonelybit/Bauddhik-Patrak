@@ -42,8 +42,35 @@
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true" />
 
+                </RelativeLayout>
 
+                <RelativeLayout
+                    android:id="@+id/nagar_karkarte_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nagar_karkarte_ListView"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
 
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mahanagar_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ListView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mahanagar_ListView"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
 
                 </RelativeLayout>
 
