@@ -72,72 +72,95 @@
     <string name="mhnagar_samarasata_email">gdk754@gmail.com</string>
 
     <string-array name="mhngr_array">
+        <item>@string/mh_sanghachalak </item>
         <item>@string/mhnagar_sanghachalak_name</item>
         <item>@string/mhnagar_sanghachalak_number</item>
         <item>@string/mhnagar_sanghachalak_email</item>
+        <item>@string/mh_karyavah</item>
         <item>@string/mhnagar_karyavah_name</item>
         <item>@string/mhnagar_karyavah_number</item>
         <item>@string/mhnagar_karyavah_email</item>
+        <item>@string/mh_sahkar1      </item>
         <item>@string/mhnagar_sah_karyavah1_name</item>
         <item>@string/mhnagar_sah_karyavah1_number</item>
         <item>@string/mhnagar_sah_karyavah1_email</item>
+        <item>@string/mh_sahkar1      </item>
         <item>@string/mhnagar_sah_karyavah2_name</item>
         <item>@string/mhnagar_sah_karyavah2_number</item>
         <item>@string/mhnagar_sah_karyavah2_email</item>
+        <item>@string/mh_shashi       </item>
         <item>@string/mhnagar_shashi_name</item>
         <item>@string/mhnagar_shashi_number</item>
         <item>@string/mhnagar_shashi_email</item>
+        <item>@string/mh_baupra       </item>
         <item>@string/mhnagar_boupra_name</item>
         <item>@string/mhnagar_boupra_number</item>
         <item>@string/mhnagar_boupra_email</item>
+        <item>@string/mh_seva         </item>
         <item>@string/mhnagar_seva_name</item>
         <item>@string/mhnagar_seva_number</item>
         <item>@string/mhnagar_seva_email</item>
+        <item>@string/mh_vyavastha    </item>
         <item>@string/mhnagar_vyavastha_name</item>
         <item>@string/mhnagar_vyavastha_number</item>
         <item>@string/mhnagar_vyavastha_email</item>
+        <item>@string/mh_sah_vyavastha</item>
         <item>@string/mhnagar_sahvyavastha_name</item>
         <item>@string/mhnagar_sahvyavastha_number</item>
         <item>@string/mhnagar_sahvyavastha_email</item>
+        <item>@string/mh_sah_samparka </item>
         <item>@string/mhnagar_sahsamparka_name</item>
         <item>@string/mhnagar_sahsamparka_number</item>
         <item>@string/mhnagar_sahsamparka_email</item>
+        <item>@string/mh_prachar      </item>
         <item>@string/mhnagar_prachar_name</item>
         <item>@string/mhnagar_prachar_number</item>
         <item>@string/mhnagar_prachar_email</item>
+        <item>@string/mh_karyalay     </item>
         <item>@string/mhnagar_karyalaya_name</item>
         <item>@string/mhnagar_karyalaya_number</item>
         <item>@string/mhnagar_karyalaya_email</item>
+        <item>@string/mh_vyasayi      </item>
         <item>@string/mhnagar_vyavasayi_name</item>
         <item>@string/mhnagar_vyavasayi_number</item>
         <item>@string/mhnagar_vyavasayi_email</item>
+        <item>@string/mh_sadasya      </item>
         <item>@string/mhnagar_sadasya2_name</item>
         <item>@string/mhnagar_sadasya2_number</item>
         <item>@string/mhnagar_sadasya2_email</item>
+        <item>@string/mh_sadasya      </item>
         <item>@string/mhnagar_sadasya_name</item>
         <item>@string/mhnagar_sadasya_number</item>
         <item>@string/mhnagar_sadasya_email</item>
+        <item>@string/mh_sadasya      </item>
         <item>@string/mhnagar_sadasya1_name</item>
         <item>@string/mhnagar_sadasya1_number</item>
         <item>@string/mhnagar_sadasya1_email</item>
+        <item>@string/mh_gouseva      </item>
         <item>@string/mhnagar_gouseva_name</item>
         <item>@string/mhnagar_gouseva_number</item>
         <item>@string/mhnagar_gouseva_email</item>
+        <item>@string/mh_dharma       </item>
         <item>@string/mhnagar_dharma_name</item>
         <item>@string/mhnagar_dharma_number</item>
         <item>@string/mhnagar_dharma_email</item>
+        <item>@string/mh_kutumba      </item>
         <item>@string/mhnagar_kutumba_name</item>
         <item>@string/mhnagar_kutumba_number</item>
         <item>@string/mhnagar_kutumba_email</item>
+        <item>@string/mh_sah_kutumba  </item>
         <item>@string/mhnagar_sah_kutumba_name</item>
         <item>@string/mhnagar_sah_kutumba_number</item>
         <item>@string/mhnagar_sah_kutumba_email</item>
+        <item>@string/mh_gram         </item>
         <item>@string/mhnagar_gram_name</item>
         <item>@string/mhnagar_gram_number</item>
         <item>@string/mhnagar_gram_email</item>
+        <item>@string/mh_sah_gram     </item>
         <item>@string/mhnagar_sah_gram_name</item>
         <item>@string/mhnagar_sah_gram_number</item>
         <item>@string/mhnagar_sah_gram_email</item>
+        <item>@string/mh_samarasata   </item>
         <item>@string/mhnagar_samarasata_name</item>
         <item>@string/mhnagar_samarasata_number</item>
         <item>@string/mhnagar_samarasata_email</item>
