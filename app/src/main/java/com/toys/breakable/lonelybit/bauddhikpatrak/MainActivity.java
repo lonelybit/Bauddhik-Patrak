@@ -108,8 +108,11 @@ public class MainActivity extends AppCompatActivity
                 //handleApril2016Contents(item);
                 handleMonthContents(item);
                 break;
-            case R.id.may_2016_group :
+            /*case R.id.may_2016_group :
                 handleMay2016Contents(item);
+                break;*/
+            case R.id.about_group :
+                handleAdhikMahitiContents(item);
                 break;
         }
 
@@ -187,7 +190,7 @@ public class MainActivity extends AppCompatActivity
                 bodhkatha_txt = getResources().getString(R.string.april_2016_bodhkatha);
                 vrutta_txt = getResources().getString(R.string.april_2016_nirop);
                 karyakram_txt = getResources().getString(R.string.april_2016_karyakram);
-                vicharmanthan_txt = getResources().getString(R.string.home_page_txt);
+                vicharmanthan_txt = getResources().getString(R.string.mukhya_paan_text);
                 updateMainPageTitle(R.string.april_2016);
 
                 break;
@@ -200,7 +203,7 @@ public class MainActivity extends AppCompatActivity
                 bodhkatha_txt = getResources().getString(R.string.may_2016_bodhkatha);
                 vrutta_txt = getResources().getString(R.string.may_2016_nirop);
                 karyakram_txt = getResources().getString(R.string.may_2016_karyakram);
-                vicharmanthan_txt = getResources().getString(R.string.home_page_txt);
+                vicharmanthan_txt = getResources().getString(R.string.mukhya_paan_text);
                 updateMainPageTitle(R.string.may_2016);
 
                 break;
@@ -945,11 +948,20 @@ public class MainActivity extends AppCompatActivity
         listView.setAdapter(karyakartaAdapter);
     }
 
+
+    private void handleAdhikMahitiContents(MenuItem item) {
+        int id = item.getItemId();
+        LayoutInflater layoutInflater = getLayoutInflater();
+        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
+
+    }
     /**
      * May 2016 Content Rendering method
      *
      * @param item
+     * @deprecated Not used anymore
      */
+    @Deprecated
     private void handleMay2016Contents(MenuItem item) {
         int id = item.getItemId();
         LayoutInflater layoutInflater = getLayoutInflater();
@@ -1066,5 +1078,7 @@ public class MainActivity extends AppCompatActivity
         //TextView mainPageTitle = (TextView) findViewById(R.id.main_page_title);
         //mainPageTitle.setText(mainPageTitleText);
         getSupportActionBar().setTitle(getResources().getString(mainPageTitleText));
+
+        // String versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
     }
 }

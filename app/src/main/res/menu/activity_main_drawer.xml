@@ -59,11 +59,10 @@
             android:title="निरोप/व्रुत्त" />-->
     </group>
 
-    <group android:checkableBehavior="single" android:id="@+id/may_2016_group">
-
-
-
-
+    <group android:checkableBehavior="single" android:id="@+id/about_group">
+        <item
+            android:id="@+id/adhik_mahiti_menu"
+            android:title="@string/adhik_mahiti_text" />
     </group>
 
     <!--<item android:title="Communicate" >

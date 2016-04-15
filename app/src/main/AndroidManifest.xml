@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.toys.breakable.lonelybit.bauddhikpatrak">
+    package="com.toys.breakable.lonelybit.bauddhikpatrak"
+    android:versionName="Pustika_2016-0.1"
+    android:versionCode="20160401">
 
     <application
         android:allowBackup="true"
