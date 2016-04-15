@@ -31,6 +31,6 @@
         android:id="@+id/mukya_paan_contents_id"
         android:layout_below="@+id/mukya_paan_subtitle_id"
         android:layout_centerHorizontal="true"
-        android:textStyle="italic"
-        android:layout_marginTop="41dp" />
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="5dp" />
 </RelativeLayout>
