@@ -14,6 +14,7 @@ import java.util.List;
  */
 public class KaryakartaAdapter extends ArrayAdapter<Karyakarta> {
 
+
     Context context;
     List<Karyakarta> karyakartas;
     public KaryakartaAdapter(Context context, int resource, List<Karyakarta> karyakartas) {

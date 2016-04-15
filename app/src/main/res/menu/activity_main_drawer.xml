@@ -5,12 +5,12 @@
         <item
             android:id="@+id/mukhya_paan"
             android:title="@string/mukhya_paan_text" />
-        <item
+        <!--<item
             android:id="@+id/bhag_karyakarini_menu"
             android:title="@string/bhag_karyakarini_text" />
         <item
             android:id="@+id/nagar_karyakarini_menu"
-            android:title="@string/nagar_karyakarini_text" />
+            android:title="@string/nagar_karyakarini_text" />-->
         <item
             android:id="@+id/patte_suchi_menu"
             android:title="@string/patte_suchi_text" />
@@ -59,11 +59,12 @@
             android:title="निरोप/व्रुत्त" />-->
     </group>
 
-    <group android:checkableBehavior="single" android:id="@+id/may_2016_group">
 
 
-
-
+    <group android:checkableBehavior="single" android:id="@+id/about_group">
+        <item
+            android:id="@+id/adhik_mahiti_menu"
+            android:title="@string/adhik_mahiti_text" />
     </group>
 
     <!--<item android:title="Communicate" >

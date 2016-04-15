@@ -27,6 +27,7 @@
     <string name="may_2016">मे २०१६</string>​​​​
     <string name="patte_suchi_text">पत्ते सूची</string>
     <string name="shakha_sahayika_text">शाखा सहायिका</string>
+    <string name="adhik_mahiti_text">पुस्तिकेची अधिक माहिती</string>
 
 
     <string name="mukhya_paan_mahiti_title">
@@ -82,6 +83,30 @@
     <string name="nagar_sah_dharmajagaran_pra">नगर सह-धर्मजागरण प्रमुख</string>
     <string name="nagar_vyavasayi_pra">नगर व्यवसायी प्रमुख</string>
     <string name="nagar_ghosh_pra">नगर घोष प्रमुख</string>
+
+    <string name="mh_sanghachalak">मा. महानगर संघचालक</string>
+    <string name="mh_karyavah">महानगर कार्यवाह</string>
+    <string name="mh_sahkar1">महानगर सह-कार्यवाह १ </string>
+    <string name="mh_sahkar2">महानगर सह-कार्यवाह २ </string>
+    <string name="mh_shashi">महानगर शा. शि. प्रमुख</string>
+    <string name="mh_baupra">महानगर बौद्धिक प्रमुख</string>
+    <string name="mh_seva">महानगर सेवा शिक्षण प्रमुख</string>
+    <string name="mh_vyavastha">महानगर व्यवस्था प्रमुख</string>
+    <string name="mh_sah_vyavastha">महानगर सह व्यवस्था प्रमुख</string>
+    <string name="mh_samparka">महानगर संपर्क प्रमुख</string>
+    <string name="mh_sah_samparka">महानगर सह-संपर्क प्रमुख</string>
+    <string name="mh_prachar">महानगर प्रचार प्रमुख</string>
+    <string name="mh_karyalay">महानगर कार्यालय प्रमुख</string>
+    <string name="mh_vyasayi">महानगर व्यवसायी विभाग  प्रमुख</string>
+    <string name="mh_sadasya">महानगर का. सदस्य </string>
+    <string name="mh_gouseva">गतीविधी: गौ सेवा  प्रमुख</string>
+    <string name="mh_dharma">गतीविधी: धर्मजागरण  प्रमुख</string>
+    <string name="mh_kutumba">गतीविधी: कुटुंब प्रबोधन प्रमुख</string>
+    <string name="mh_sah_kutumba">गतीविधी: कुटुंब प्रबोधन सह प्रमुख</string>
+    <string name="mh_gram">गतीविधी: ग्रामविकास प्रमुख</string>
+    <string name="mh_sah_gram">गतीविधी: ग्रामविकास सह प्रमुख</string>
+    <string name="mh_samarasata">गतीविधी: समरसता सह प्रमुख</string>
+
 
 
     <string name="shakha_lavane_txt">

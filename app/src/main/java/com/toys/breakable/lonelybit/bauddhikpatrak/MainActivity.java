@@ -22,6 +22,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -108,8 +109,12 @@ public class MainActivity extends AppCompatActivity
                 //handleApril2016Contents(item);
                 handleMonthContents(item);
                 break;
-            case R.id.may_2016_group :
+
+            /*case R.id.may_2016_group :
                 handleMay2016Contents(item);
+                break;*/
+            case R.id.about_group :
+                handleAdhikMahitiContents(item);
                 break;
         }
 
@@ -144,14 +149,14 @@ public class MainActivity extends AppCompatActivity
 
                 renderMukhyaPaan(layoutInflater, mainContentLayout);
                 break;
-            case R.id.bhag_karyakarini_menu :
+            /*case R.id.bhag_karyakarini_menu :
 
                 renderBhagKaryakarini(layoutInflater, mainContentLayout);
                 break;
             case R.id.nagar_karyakarini_menu :
 
                 renderNagarKaryakarini(layoutInflater, mainContentLayout);
-                break;
+                break;*/
             case R.id.patte_suchi_menu :
 
                 handlePatteSuchi(item);
@@ -429,9 +434,13 @@ public class MainActivity extends AppCompatActivity
         mainContentLayout.removeAllViewsInLayout();
         mainContentLayout.addView(view);
         ListView listView = (ListView) view.findViewById(R.id.karyakariniListView);
+        handleListviewNagar(listView);
+
+    }
+
+    private void handleListviewNagar (ListView nagarlist){
 
         List<Karyakarta> karyakartas = new ArrayList<>();
-
         Resources res = getResources();
         updateMainPageTitle(R.string.nagar_karyakarini_text);
 
@@ -665,27 +674,14 @@ public class MainActivity extends AppCompatActivity
 
         /*Nanded Nagar End*/
 
-                KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
+        KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
 
-        listView.setAdapter(karyakartaAdapter);
+        nagarlist.setAdapter(karyakartaAdapter);
+
 
     }
 
-    /**To create tabbed patte suchi*/
-    private void handlePatteSuchi(MenuItem item) {
-        int id = item.getItemId();
-
-        LayoutInflater layoutInflater = getLayoutInflater();
-
-        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
-
-        RelativeLayout Bhag_karyakarini = (RelativeLayout) findViewById(R.id.bhag_karyakarini_tab);
-
-        View tabbedview = layoutInflater.inflate(R.layout.patte_suchi, mainContentLayout, false);
-        mainContentLayout.removeAllViewsInLayout();
-        mainContentLayout.addView(tabbedview);
-
-        ListView listView = (ListView) tabbedview.findViewById(R.id.karyakariniListView);
+    private void handleBhagList(ListView bhaglist){
 
         List<Karyakarta> karyakartas = new ArrayList<>();
 
@@ -802,7 +798,46 @@ public class MainActivity extends AppCompatActivity
 
         KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
 
-        listView.setAdapter(karyakartaAdapter);
+        bhaglist.setAdapter(karyakartaAdapter);
+    }
+
+    private void handleMhnagarsuchi(ListView mhnagarlistview){
+        String[] mhngrarray;
+        mhngrarray = getResources().getStringArray(R.array.mhngr_array);
+
+        //ListView mhnagarlistview = (ListView) findViewById(R.id.mahanagar_ListView);
+        //ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mhngrarray);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.listviewtestview, mhngrarray);
+        mhnagarlistview.setAdapter(adapter);
+        //mhnagarlistview.setOnItemClickListener(this);
+
+    }
+
+    /**To create tabbed patte suchi*/
+    private void handlePatteSuchi(MenuItem item) {
+        int id = item.getItemId();
+
+        LayoutInflater layoutInflater = getLayoutInflater();
+
+        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
+
+        View tabbedview = layoutInflater.inflate(R.layout.patte_suchi, mainContentLayout, false);
+        mainContentLayout.removeAllViewsInLayout();
+        mainContentLayout.addView(tabbedview);
+
+        ListView listView = (ListView) tabbedview.findViewById(R.id.karyakariniListView);
+
+        ListView NagarlistView = (ListView) tabbedview.findViewById(R.id.nagar_karkarte_ListView);
+
+        ListView MahalistView = (ListView) tabbedview.findViewById(R.id.mahanagar_ListView);
+
+        handleListviewNagar(NagarlistView);
+
+        handleBhagList(listView);
+
+        handleMhnagarsuchi(MahalistView);
+
+        updateMainPageTitle(R.string.patte_suchi_text);
 
         TabHost host = (TabHost) findViewById(R.id.tabHost_pattesuchi);
         host.setup();
@@ -813,7 +848,16 @@ public class MainActivity extends AppCompatActivity
         spec.setIndicator("भाग कार्यकारिणी");
         host.addTab(spec);
 
+        //Tab 2
+        spec = host.newTabSpec("नगर कार्यकारिणी");
+        spec.setContent(R.id.nagar_karkarte_tab);
+        spec.setIndicator("नगर कार्यकारिणी");
+        host.addTab(spec);
 
+        spec = host.newTabSpec("महानगर कार्यकारिणी");
+        spec.setContent(R.id.mahanagar_tab);
+        spec.setIndicator("महानगर कार्यकारिणी");
+        host.addTab(spec);
 
     }
 
@@ -826,123 +870,15 @@ public class MainActivity extends AppCompatActivity
         mainContentLayout.addView(view);
 
         ListView listView = (ListView) view.findViewById(R.id.karyakariniListView);
+        handleBhagList(listView);
 
-        List<Karyakarta> karyakartas = new ArrayList<>();
+    }
 
-        updateMainPageTitle(R.string.bhag_karyakarini_text);
+    private void handleAdhikMahitiContents(MenuItem item) {
+        int id = item.getItemId();
+        LayoutInflater layoutInflater = getLayoutInflater();
+        RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
 
-        Resources res = getResources();
-
-        Karyakarta bhagSanghachalak = new Karyakarta("", res.getString(R.string.bhag_sanghachalak_name),
-                res.getString(R.string.bhag_sanghachalak_number), res.getString(R.string.bhag_sanghachalak_email),
-                res.getString(R.string.bhag_sanghachalak));
-        karyakartas.add(bhagSanghachalak);
-
-        Karyakarta bhagKaryavah = new Karyakarta("", res.getString(R.string.bhag_karyavah_name),
-                res.getString(R.string.bhag_karyavah_number), res.getString(R.string.bhag_karyavah_email),
-                res.getString(R.string.bhag_karyavaah));
-        karyakartas.add(bhagKaryavah);
-
-        Karyakarta bhagSahKaryavah1 = new Karyakarta("", res.getString(R.string.bhag_sah_karyavah1_name),
-                res.getString(R.string.bhag_sah_karyavah1_number), res.getString(R.string.bhag_sah_karyavah1_email),
-                res.getString(R.string.bhag_sahkaryavaah));
-        karyakartas.add(bhagSahKaryavah1);
-
-
-        Karyakarta bhagSahKaryavah2 = new Karyakarta("", res.getString(R.string.bhag_sah_karyavah2_name),
-                res.getString(R.string.bhag_sah_karyavah2_number), res.getString(R.string.bhag_sah_karyavah2_email),
-                res.getString(R.string.bhag_sahkaryavaah));
-        karyakartas.add(bhagSahKaryavah2);
-
-        Karyakarta bhagShashi = new Karyakarta("", res.getString(R.string.bhag_shashi_name),
-                res.getString(R.string.bhag_shashi_number), res.getString(R.string.bhag_shashi_email),
-                res.getString(R.string.bhag_sha_shi_pra));
-        karyakartas.add(bhagShashi);
-
-        Karyakarta bhagBoupra = new Karyakarta("", res.getString(R.string.bhag_boupra_name),
-                res.getString(R.string.bhag_boupra_number), res.getString(R.string.bhag_boupra_email),
-                res.getString(R.string.bhag_bauddhik_pra));
-        karyakartas.add(bhagBoupra);
-
-        Karyakarta bhagVyavastha = new Karyakarta("", res.getString(R.string.bhag_vyavastha_name),
-                res.getString(R.string.bhag_vyavastha_number), res.getString(R.string.bhag_vyavastha_email),
-                res.getString(R.string.bhag_vyavastha_pra));
-        karyakartas.add(bhagVyavastha);
-
-        Karyakarta bhagKaryalaya = new Karyakarta("", res.getString(R.string.bhag_karyalaya_name),
-                res.getString(R.string.bhag_karyalaya_number), res.getString(R.string.bhag_karyalaya_email),
-                res.getString(R.string.bhag_karyalay_pra));
-        karyakartas.add(bhagKaryalaya);
-
-        Karyakarta bhagMahavidyalaya = new Karyakarta("", res.getString(R.string.bhag_mahavidyalaya_name),
-                res.getString(R.string.bhag_mahavidyalaya_number), res.getString(R.string.bhag_mahavidyalaya_email),
-                res.getString(R.string.bhag_maha_vid_pra));
-        karyakartas.add(bhagMahavidyalaya);
-
-        Karyakarta bhagIT = new Karyakarta("", res.getString(R.string.bhag_it_name),
-                res.getString(R.string.bhag_it_number), res.getString(R.string.bhag_it_email),
-                res.getString(R.string.bhag_it_vyavsayi_pra));
-        karyakartas.add(bhagIT);
-
-
-        Karyakarta bhagSamparka = new Karyakarta("", res.getString(R.string.bhag_samparka_name),
-                res.getString(R.string.bhag_samparka_number), res.getString(R.string.bhag_samparka_email),
-                res.getString(R.string.bhag_sampark_pra));
-        karyakartas.add(bhagSamparka);
-
-        Karyakarta bhagSeva = new Karyakarta("", res.getString(R.string.bhag_seva_name),
-                res.getString(R.string.bhag_seva_number), res.getString(R.string.bhag_seva_email),
-                res.getString(R.string.bhag_seva_shikshan_pra));
-        karyakartas.add(bhagSeva);
-
-        Karyakarta bhagPrachar = new Karyakarta("", res.getString(R.string.bhag_prachar_name),
-                res.getString(R.string.bhag_prachar_number), res.getString(R.string.bhag_prachar_email),
-                res.getString(R.string.bhag_prachar_pra));
-        karyakartas.add(bhagPrachar);
-
-        Karyakarta bhagDharma = new Karyakarta("", res.getString(R.string.bhag_dharma_name),
-                res.getString(R.string.bhag_dharma_number), res.getString(R.string.bhag_dharma_email),
-                res.getString(R.string.bhag_dharmajagaran_pra));
-        karyakartas.add(bhagDharma);
-
-        Karyakarta bhagSahDharma = new Karyakarta("", res.getString(R.string.bhag_sah_dharma_name),
-                res.getString(R.string.bhag_sah_dharma_number), res.getString(R.string.bhag_sah_dharma_email),
-                res.getString(R.string.bhag_sah_dharmajagaran_pra));
-        karyakartas.add(bhagSahDharma);
-
-        Karyakarta bhagSadasya = new Karyakarta("", res.getString(R.string.bhag_sadasya_name),
-                res.getString(R.string.bhag_sadasya_number), res.getString(R.string.bhag_sadasya_email),
-                res.getString(R.string.bhag_sadasya1));
-        karyakartas.add(bhagSadasya);
-
-        Karyakarta bhagGhosh = new Karyakarta("", res.getString(R.string.bhag_ghosh_name),
-                res.getString(R.string.bhag_ghosh_number), res.getString(R.string.bhag_ghosh_email),
-                res.getString(R.string.bhag_ghosh_pra));
-        karyakartas.add(bhagGhosh);
-
-        Karyakarta bhagKutumba = new Karyakarta("", res.getString(R.string.bhag_kutumba_name),
-                res.getString(R.string.bhag_kutumba_number), res.getString(R.string.bhag_kutumba_email),
-                res.getString(R.string.bhag_kutumb_prabodhan_pra));
-        karyakartas.add(bhagKutumba);
-
-        Karyakarta bhagGram = new Karyakarta("", res.getString(R.string.bhag_gram_name),
-                res.getString(R.string.bhag_gram_number), res.getString(R.string.bhag_gram_email),
-                res.getString(R.string.bhag_gramvikas_pra));
-        karyakartas.add(bhagGram);
-
-        Karyakarta bhagGouseva = new Karyakarta("", res.getString(R.string.bhag_gouseva_name),
-                res.getString(R.string.bhag_gouseva_number), res.getString(R.string.bhag_gouseva_email),
-                res.getString(R.string.bhag_go_seva_pra));
-        karyakartas.add(bhagGouseva);
-
-        Karyakarta bhagSamarasata = new Karyakarta("", res.getString(R.string.bhag_samarasata_name),
-                res.getString(R.string.bhag_samarasata_number), res.getString(R.string.bhag_samarasata_email),
-                res.getString(R.string.bhag_samarasata_pra));
-        karyakartas.add(bhagSamarasata);
-
-        KaryakartaAdapter karyakartaAdapter = new KaryakartaAdapter(this, 0, karyakartas);
-
-        listView.setAdapter(karyakartaAdapter);
     }
 
     /**
@@ -1067,4 +1003,5 @@ public class MainActivity extends AppCompatActivity
         //mainPageTitle.setText(mainPageTitleText);
         getSupportActionBar().setTitle(getResources().getString(mainPageTitleText));
     }
+
 }
