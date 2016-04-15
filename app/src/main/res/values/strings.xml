@@ -87,8 +87,8 @@
 
     <string name="mh_sanghachalak">मा. महानगर संघचालक</string>
     <string name="mh_karyavah">महानगर कार्यवाह</string>
-    <string name="mh_sahkar1">महानगर सह-कार्यवाह १ </string>
-    <string name="mh_sahkar2">महानगर सह-कार्यवाह २ </string>
+    <string name="mh_sahkar1">महानगर सह-कार्यवाह </string>
+    <string name="mh_sahkar2">महानगर सह-कार्यवाह </string>
     <string name="mh_shashi">महानगर शा. शि. प्रमुख</string>
     <string name="mh_baupra">महानगर बौद्धिक प्रमुख</string>
     <string name="mh_seva">महानगर सेवा शिक्षण प्रमुख</string>
