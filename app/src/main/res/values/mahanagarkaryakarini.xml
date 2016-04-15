@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="mhnagar_sanghachalak_name">श्री. रवींद्र यशवंत वंजारवाडकर</string>
+    <string name="mhnagar_sanghachalak_number">९८२२६०९११६, 8308398600</string>
+    <string name="mhnagar_sanghachalak_email">ctechedu1@yahoo.com</string>
+    <string name="mhnagar_karyavah_name">श्री. महेश संभाजी करपे</string>
+    <string name="mhnagar_karyavah_number">९७३००७३५४१</string>
+    <string name="mhnagar_karyavah_email">chandherekarpeasso@yahoo.in, punemahanagarsampark@gmail.com</string>
+    <string name="mhnagar_sah_karyavah1_name">श्री.विवेक वसंत देशपांडे</string>
+    <string name="mhnagar_sah_karyavah1_number">९८५०८४७५८५</string>
+    <string name="mhnagar_sah_karyavah1_email">vivek.vvd1@gmail.com</string>
+    <string name="mhnagar_sah_karyavah2_name">श्री.धनंजय रामचंद्र घाटे</string>
+    <string name="mhnagar_sah_karyavah2_number">९४२२५१४६२०, ०८९७५८२४०८४</string>
+    <string name="mhnagar_sah_karyavah2_email">dhananjayghate65@gmail.com</string>
+    <string name="mhnagar_shashi_name">श्री.सचीन हणमंत काळे</string>
+    <string name="mhnagar_shashi_number">९९२३६९४१५४</string>
+    <string name="mhnagar_shashi_email">sachinkaale@gmail.com</string>
+    <string name="mhnagar_boupra_name">श्री. सुधीर गाडे </string>
+    <string name="mhnagar_boupra_number">9860366433</string>
+    <string name="mhnagar_boupra_email">gadesudhir72@gmail.com</string>
+    <string name="mhnagar_seva_name">श्री. महेश रामकृष्ण पोहनेरकर</string>
+    <string name="mhnagar_seva_number">९५९४९६१८३६</string>
+    <string name="mhnagar_seva_email">mahesh.pohnerkar@gmail.com</string>
+    <string name="mhnagar_vyavastha_name">श्री. प्रदीप प्रभाकर सबनीस</string>
+    <string name="mhnagar_vyavastha_number">९४२३५८०३०५</string>
+    <string name="mhnagar_vyavastha_email">pradip_sabnis@rediffmail.com</string>
+    <string name="mhnagar_sahvyavastha_name">श्री.सुहास बाळकृष्ण दाबेकर</string>
+    <string name="mhnagar_sahvyavastha_number">९९६०२३०२१२</string>
+    <string name="mhnagar_sahvyavastha_email">Suhasdabekar3@gmail.com</string>
+    <string name="mhnagar_sahsamparka_name">श्रो महेश चंद्रकांत  काळे</string>
+    <string name="mhnagar_sahsamparka_number">9503235971</string>
+    <string name="mhnagar_sahsamparka_email">mahesh1.kale@gmail.com</string>
+    <string name="mhnagar_prachar_name">श्री. हर्षवर्धन मोरेश्वर खरे </string>
+    <string name="mhnagar_prachar_number">9423016776</string>
+    <string name="mhnagar_prachar_email">punemahanagar.prachar@gmail.com,   khareharshavardhan@gmail.com</string>
+    <string name="mhnagar_karyalaya_name">श्री. राहुल रत्नाकर पुंडे</string>
+    <string name="mhnagar_karyalaya_number">९८५०६०४६६२, 9028322888</string>
+    <string name="mhnagar_karyalaya_email">rahulrpunde@gmail.com</string>
+    <string name="mhnagar_vyavasayi_name">श्री. प्रदीप ब. वाजे </string>
+    <string name="mhnagar_vyavasayi_number">9823382434</string>
+    <string name="mhnagar_vyavasayi_email">pradeepwaje73@gmail.com</string>
+    <string name="mhnagar_sadasya2_name">श्री किशोर कोंडीबा येनपुरे</string>
+    <string name="mhnagar_sadasya2_number">8421533999</string>
+    <string name="mhnagar_sadasya2_email">kyenpure69@gmail.com</string>
+    <string name="mhnagar_sadasya_name">श्री.शरद बळवंत तथा बापू घाटपांडे</string>
+    <string name="mhnagar_sadasya_number">९८५०५६०२८०</string>
+    <string name="mhnagar_sadasya_email"></string>
+    <string name="mhnagar_sadasya1_name">श्री. मंगेश शरद घाटपांडे</string>
+    <string name="mhnagar_sadasya1_number">९८२२९९६४६९</string>
+    <string name="mhnagar_sadasya1_email">mangeshsg@gmail.com</string>
+    <string name="mhnagar_gouseva_name">श्री. रवींद्र विश्वनाथ रबडे</string>
+    <string name="mhnagar_gouseva_number">९४२२०५८३२६</string>
+    <string name="mhnagar_gouseva_email">ravi.rabade@yahoo.com</string>
+    <string name="mhnagar_dharma_name">श्री. प्रशांत शंकरराव यादव</string>
+    <string name="mhnagar_dharma_number">9822844925</string>
+    <string name="mhnagar_dharma_email"></string>
+    <string name="mhnagar_kutumba_name">संजय अनंत कुलकर्णी</string>
+    <string name="mhnagar_kutumba_number">9766626040</string>
+    <string name="mhnagar_kutumba_email">consultwithsanjay@gmail.com</string>
+    <string name="mhnagar_sah_kutumba_name">अनिल देशपांडे</string>
+    <string name="mhnagar_sah_kutumba_number">9766846876</string>
+    <string name="mhnagar_sah_kutumba_email">deshpandeanil182@gmail.com</string>
+    <string name="mhnagar_gram_name">बाबा शिंदे</string>
+    <string name="mhnagar_gram_number">9881191351</string>
+    <string name="mhnagar_gram_email">babashinde@rediffmail.com</string>
+    <string name="mhnagar_sah_gram_name">शिवाजीराव जगन्नाथ वहाडणे</string>
+    <string name="mhnagar_sah_gram_number">9890638159</string>
+    <string name="mhnagar_sah_gram_email">bharatvahadane@gmail.com</string>
+    <string name="mhnagar_samarasata_name">गिरधर दौलतराव  खैरनार </string>
+    <string name="mhnagar_samarasata_number">9881408441, 8600338598</string>
+    <string name="mhnagar_samarasata_email">gdk754@gmail.com</string>
+
+    <string-array name="mhngr_array">
+        <item>@string/mhnagar_sanghachalak_name</item>
+        <item>@string/mhnagar_sanghachalak_number</item>
+        <item>@string/mhnagar_sanghachalak_email</item>
+        <item>@string/mhnagar_karyavah_name</item>
+        <item>@string/mhnagar_karyavah_number</item>
+        <item>@string/mhnagar_karyavah_email</item>
+        <item>@string/mhnagar_sah_karyavah1_name</item>
+        <item>@string/mhnagar_sah_karyavah1_number</item>
+        <item>@string/mhnagar_sah_karyavah1_email</item>
+        <item>@string/mhnagar_sah_karyavah2_name</item>
+        <item>@string/mhnagar_sah_karyavah2_number</item>
+        <item>@string/mhnagar_sah_karyavah2_email</item>
+        <item>@string/mhnagar_shashi_name</item>
+        <item>@string/mhnagar_shashi_number</item>
+        <item>@string/mhnagar_shashi_email</item>
+        <item>@string/mhnagar_boupra_name</item>
+        <item>@string/mhnagar_boupra_number</item>
+        <item>@string/mhnagar_boupra_email</item>
+        <item>@string/mhnagar_seva_name</item>
+        <item>@string/mhnagar_seva_number</item>
+        <item>@string/mhnagar_seva_email</item>
+        <item>@string/mhnagar_vyavastha_name</item>
+        <item>@string/mhnagar_vyavastha_number</item>
+        <item>@string/mhnagar_vyavastha_email</item>
+        <item>@string/mhnagar_sahvyavastha_name</item>
+        <item>@string/mhnagar_sahvyavastha_number</item>
+        <item>@string/mhnagar_sahvyavastha_email</item>
+        <item>@string/mhnagar_sahsamparka_name</item>
+        <item>@string/mhnagar_sahsamparka_number</item>
+        <item>@string/mhnagar_sahsamparka_email</item>
+        <item>@string/mhnagar_prachar_name</item>
+        <item>@string/mhnagar_prachar_number</item>
+        <item>@string/mhnagar_prachar_email</item>
+        <item>@string/mhnagar_karyalaya_name</item>
+        <item>@string/mhnagar_karyalaya_number</item>
+        <item>@string/mhnagar_karyalaya_email</item>
+        <item>@string/mhnagar_vyavasayi_name</item>
+        <item>@string/mhnagar_vyavasayi_number</item>
+        <item>@string/mhnagar_vyavasayi_email</item>
+        <item>@string/mhnagar_sadasya2_name</item>
+        <item>@string/mhnagar_sadasya2_number</item>
+        <item>@string/mhnagar_sadasya2_email</item>
+        <item>@string/mhnagar_sadasya_name</item>
+        <item>@string/mhnagar_sadasya_number</item>
+        <item>@string/mhnagar_sadasya_email</item>
+        <item>@string/mhnagar_sadasya1_name</item>
+        <item>@string/mhnagar_sadasya1_number</item>
+        <item>@string/mhnagar_sadasya1_email</item>
+        <item>@string/mhnagar_gouseva_name</item>
+        <item>@string/mhnagar_gouseva_number</item>
+        <item>@string/mhnagar_gouseva_email</item>
+        <item>@string/mhnagar_dharma_name</item>
+        <item>@string/mhnagar_dharma_number</item>
+        <item>@string/mhnagar_dharma_email</item>
+        <item>@string/mhnagar_kutumba_name</item>
+        <item>@string/mhnagar_kutumba_number</item>
+        <item>@string/mhnagar_kutumba_email</item>
+        <item>@string/mhnagar_sah_kutumba_name</item>
+        <item>@string/mhnagar_sah_kutumba_number</item>
+        <item>@string/mhnagar_sah_kutumba_email</item>
+        <item>@string/mhnagar_gram_name</item>
+        <item>@string/mhnagar_gram_number</item>
+        <item>@string/mhnagar_gram_email</item>
+        <item>@string/mhnagar_sah_gram_name</item>
+        <item>@string/mhnagar_sah_gram_number</item>
+        <item>@string/mhnagar_sah_gram_email</item>
+        <item>@string/mhnagar_samarasata_name</item>
+        <item>@string/mhnagar_samarasata_number</item>
+        <item>@string/mhnagar_samarasata_email</item>
+    </string-array>
+
+
+</resources>
