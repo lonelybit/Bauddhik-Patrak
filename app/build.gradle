@@ -8,8 +8,8 @@ android {
         applicationId "com.toys.breakable.lonelybit.bauddhikpatrak"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 20160401
+        versionName "Pustika_2016-0.1"
     }
     buildTypes {
         release {
