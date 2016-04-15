@@ -1,5 +1,6 @@
 package com.toys.breakable.lonelybit.bauddhikpatrak;
 
+import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -878,7 +879,26 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         LayoutInflater layoutInflater = getLayoutInflater();
         RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
+        updateMainPageTitle(R.string.adhik_mahiti_text);
+        switch (id) {
+            case R.id.adhik_mahiti_menu:
+                View adhikMahitiView = layoutInflater.inflate(R.layout.two_column_layout,
+                        mainContentLayout, false);
+                mainContentLayout.removeAllViewsInLayout();
+                mainContentLayout.addView(adhikMahitiView);
+                try {
+                    String versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+                    TextView adhikMahitiLabel1 = (TextView) adhikMahitiView.findViewById(R.id.mahitiTextViewLabel1);
+                    adhikMahitiLabel1.setText(R.string.version_name_text);
+                    TextView adhikMahitiValue1 = (TextView) adhikMahitiView.findViewById(R.id.mahitiTextViewValue1);
+                    adhikMahitiValue1.setText(versionName);
 
+                } catch (PackageManager.NameNotFoundException e) {
+                    e.printStackTrace();
+                }
+                break;
+
+        }
     }
 
     /**
