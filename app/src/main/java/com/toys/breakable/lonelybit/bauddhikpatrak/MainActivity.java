@@ -1,5 +1,6 @@
 package com.toys.breakable.lonelybit.bauddhikpatrak;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -46,10 +47,26 @@ public class MainActivity extends AppCompatActivity
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
+
+            final String subject = getResources().getString(R.string.subject_for_email_feedback);
+            final String ithe_kalava_text = getResources().getString(R.string.ithe_kalava_text);
+
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "हिंदी बौद्धिक पत्रक", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, subject, Snackbar.LENGTH_LONG)
+                        .setAction(ithe_kalava_text, new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Intent i = new Intent(Intent.ACTION_SEND);
+                                String developer1 = getResources().getString(R.string.developer_email_1);
+                                String developer2 = getResources().getString(R.string.developer_email_2);
+                                i.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{developer1, developer2});
+                                i.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
+                                //i.putExtra(android.content.Intent.EXTRA_TEXT, text);
+                                startActivity(Intent.createChooser(i, "Send email"));
+                                //startActivity(i);
+                            }
+                        }).show();
             }
         });
 

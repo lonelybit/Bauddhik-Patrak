@@ -22,7 +22,7 @@
     <string name="nirop_vrutta_text">निरोप व इतर वृत्त</string>
 
     <string name="abhipray">अभिप्राय?</string>
-    <string name="ithe_kalava_text">इथे पाठवा</string>
+    <string name="ithe_kalava_text">पाठवा</string>
     <string name="april_2016">एप्रील २०१६</string>
     <string name="may_2016">मे २०१६</string>​​​​
     <string name="patte_suchi_text">पत्ते सूची</string>
@@ -108,7 +108,10 @@
     <string name="mh_sah_gram">गतीविधी: ग्रामविकास सह प्रमुख</string>
     <string name="mh_samarasata">गतीविधी: समरसता सह प्रमुख</string>
 
-
+    <!-- EMail sambandhi mahiti -->
+    <string name="developer_email_1">jaydip19@gmail.com</string>
+    <string name="developer_email_2">lonelybit12@gmail.com</string>
+    <string name="subject_for_email_feedback">शाखा पुस्तिका - अभिप्राय / सूचना</string>
 
     <string name="shakha_lavane_txt">
          <![CDATA[शाखा लावणे
