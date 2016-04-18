@@ -57,13 +57,15 @@ public class MainActivity extends AppCompatActivity
                         .setAction(ithe_kalava_text, new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Intent i = new Intent(Intent.ACTION_SEND);
+                                final Intent i = new Intent(Intent.ACTION_SEND);
+
                                 String developer1 = getResources().getString(R.string.developer_email_1);
                                 String developer2 = getResources().getString(R.string.developer_email_2);
+                                i.setType("plain/text");
                                 i.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{developer1, developer2});
                                 i.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
                                 //i.putExtra(android.content.Intent.EXTRA_TEXT, text);
-                                startActivity(Intent.createChooser(i, "Send email"));
+                                startActivity(Intent.createChooser(i, "Send email..."));
                                 //startActivity(i);
                             }
                         }).show();
@@ -315,6 +317,8 @@ public class MainActivity extends AppCompatActivity
         LayoutInflater layoutInflater = getLayoutInflater();
         RelativeLayout mainContentLayout = (RelativeLayout) findViewById(R.id.main_content_layout);
 
+        updateMainPageTitle(R.string.shakha_sahayika_text);
+
         View tabbedview = layoutInflater.inflate(R.layout.shakha_sahayika, mainContentLayout, false);
         mainContentLayout.removeAllViewsInLayout();
         mainContentLayout.addView(tabbedview);
@@ -335,9 +339,41 @@ public class MainActivity extends AppCompatActivity
         //Tab 2
         spec = host.newTabSpec("शाखा विसर्जन");
         spec.setContent(R.id.shakha_visarjan_tab);
-        TextView vGeetContents = (TextView)findViewById(R.id.shakha_visarjan_txt);
-        vGeetContents.setText(R.string.shakha_visarjan_txt);
+        TextView vShakhaVisrjnContents = (TextView)findViewById(R.id.shakha_visarjan_txt);
+        vShakhaVisrjnContents.setText(R.string.shakha_visarjan_txt);
         spec.setIndicator("शाखा विसर्जन");
+        host.addTab(spec);
+
+        //Tab 3
+        spec = host.newTabSpec("वेळापत्रक");
+        spec.setContent(R.id.shakha_velapatrak_tab);
+        TextView vVelapatrakContents = (TextView)findViewById(R.id.shakha_velapatrak_txt);
+        vVelapatrakContents.setText(R.string.shakhavelapatrak);
+        spec.setIndicator("वेळापत्रक");
+        host.addTab(spec);
+
+        //Tab 4
+        spec = host.newTabSpec("मैदानांची मापे");
+        spec.setContent(R.id.khel_maidan_tab);
+        TextView vMaidanContents = (TextView)findViewById(R.id.khel_maidan_txt);
+        vMaidanContents.setText(R.string.maidan_mape);
+        spec.setIndicator("मैदानांची मापे");
+        host.addTab(spec);
+
+        //Tab 5
+        spec = host.newTabSpec("आचार विभाग");
+        spec.setContent(R.id.achar_vibhag_tab);
+        TextView vAcharContents = (TextView)findViewById(R.id.achar_vibhag_txt);
+        vAcharContents.setText(R.string.aachar_vibhag);
+        spec.setIndicator("आचार विभाग");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("खेळ");
+        spec.setContent(R.id.khel_tab);
+        TextView vKhelContents = (TextView)findViewById(R.id.khel_txt);
+        vKhelContents.setText(R.string.khel);
+        spec.setIndicator("खेळ");
         host.addTab(spec);
 
 
@@ -871,7 +907,7 @@ public class MainActivity extends AppCompatActivity
         spec.setContent(R.id.nagar_karkarte_tab);
         spec.setIndicator("नगर कार्यकारिणी");
         host.addTab(spec);
-
+        //Tab 3
         spec = host.newTabSpec("महानगर कार्यकारिणी");
         spec.setContent(R.id.mahanagar_tab);
         spec.setIndicator("महानगर कार्यकारिणी");
