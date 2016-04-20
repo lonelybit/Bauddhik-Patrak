@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="bhag_sanghachalak">मा. भाग संघचालक</string>
+    <string name="bhag_karyavaah">भाग कार्यवाह</string>
+    <string name="bhag_sahkaryavaah">भाग सह कार्यवाह</string>
+    <string name="bhag_sha_shi_pra">भाग शारीरिक शिक्षण प्रमुख</string>
+    <string name="bhag_bauddhik_pra">भाग बौद्धिक प्रमुख</string>
+    <string name="bhag_vyavastha_pra">भाग व्यवथा प्रमुख</string>
+    <string name="bhag_karyalay_pra">भाग कार्यालय प्रमुख</string>
+    <string name="bhag_maha_vid_pra">भाग महावियालयीन वियार्थी प्रमुख</string>
+    <string name="bhag_it_vyavsayi_pra">भाग आय. टी. वयावसायी प्रमुख</string>
+    <string name="bhag_seva_shikshan_pra">भाग सेवा शिक्षण प्रमुख</string>
+    <string name="bhag_prachar_pra">भाग प्रचार प्रमुख</string>
+    <string name="bhag_sampark_pra">भाग संपर्क प्रमुख</string>
+    <string name="bhag_dharmajagaran_pra">भाग धर्मजागरण प्रमुख</string>
+    <string name="bhag_sah_dharmajagaran_pra">भाग सह धर्मजागरण प्रमुख</string>
+    <string name="bhag_ghosh_pra">भाग घोष प्रमुख</string>
+    <string name="bhag_kutumb_prabodhan_pra">कुटुंब प्रबोधन</string>
+    <string name="bhag_gramvikas_pra">ग्रामविकास</string>
+    <string name="bhag_go_seva_pra">गोसेवा</string>
+    <string name="bhag_samarasata_pra">समरसता</string>
+    <string name="bhag_sadasya1">भाग कार्यकारिणी सदस्य</string>
+
     <string name="bhag_sanghachalak_name">श्री. महेश विष्णू लेले</string>
     <string name="bhag_sanghachalak_number">9422083402</string>
     <string name="bhag_sanghachalak_email">lelemv@yahoo.com</string>
@@ -83,5 +104,92 @@
     <string name="bhag_samarasata_name">श्री. सुनिल मधुकर राउत</string>
     <string name="bhag_samarasata_number">9921669551</string>
     <string name="bhag_samarasata_email">sunilmraut@gmail.com</string>
+
+    <string-array name="bhag_array">
+        <item>@string/bhag_sanghachalak         </item>
+        <item>@string/bhag_sanghachalak_name   </item>
+        <item>@string/bhag_sanghachalak_number </item>
+        <item>@string/bhag_sanghachalak_email  </item>
+        <item>@string/bhag_karyavaah            </item>
+        <item>@string/bhag_karyavah_name       </item>
+        <item>@string/bhag_karyavah_number     </item>
+        <item>@string/bhag_karyavah_email      </item>
+        <item>@string/bhag_sahkaryavaah         </item>
+        <item>@string/bhag_sah_karyavah1_name  </item>
+        <item>@string/bhag_sah_karyavah1_number</item>
+        <item>@string/bhag_sah_karyavah1_email </item>
+        <item>@string/bhag_sahkaryavaah         </item>
+        <item>@string/bhag_sah_karyavah2_name  </item>
+        <item>@string/bhag_sah_karyavah2_number</item>
+        <item>@string/bhag_sah_karyavah2_email </item>
+        <item>@string/bhag_sha_shi_pra          </item>
+        <item>@string/bhag_shashi_name         </item>
+        <item>@string/bhag_shashi_number       </item>
+        <item>@string/bhag_shashi_email        </item>
+        <item>@string/bhag_bauddhik_pra         </item>
+        <item>@string/bhag_boupra_name         </item>
+        <item>@string/bhag_boupra_number       </item>
+        <item>@string/bhag_boupra_email        </item>
+        <item>@string/bhag_vyavastha_pra        </item>
+        <item>@string/bhag_vyavastha_name      </item>
+        <item>@string/bhag_vyavastha_number    </item>
+        <item>@string/bhag_vyavastha_email     </item>
+        <item>@string/bhag_karyalay_pra         </item>
+        <item>@string/bhag_karyalaya_name      </item>
+        <item>@string/bhag_karyalaya_number    </item>
+        <item>@string/bhag_karyalaya_email     </item>
+        <item>@string/bhag_maha_vid_pra         </item>
+        <item>@string/bhag_mahavidyalaya_name  </item>
+        <item>@string/bhag_mahavidyalaya_number</item>
+        <item>@string/bhag_mahavidyalaya_email </item>
+        <item>@string/bhag_it_vyavsayi_pra      </item>
+        <item>@string/bhag_it_name             </item>
+        <item>@string/bhag_it_number           </item>
+        <item>@string/bhag_it_email            </item>
+        <item>@string/bhag_seva_shikshan_pra    </item>
+        <item>@string/bhag_seva_name           </item>
+        <item>@string/bhag_seva_number         </item>
+        <item>@string/bhag_seva_email          </item>
+        <item>@string/bhag_prachar_pra          </item>
+        <item>@string/bhag_prachar_name        </item>
+        <item>@string/bhag_prachar_number      </item>
+        <item>@string/bhag_prachar_email       </item>
+        <item>@string/bhag_sampark_pra          </item>
+        <item>@string/bhag_samparka_name       </item>
+        <item>@string/bhag_samparka_number     </item>
+        <item>@string/bhag_samparka_email      </item>
+        <item>@string/bhag_dharmajagaran_pra    </item>
+        <item>@string/bhag_dharma_name         </item>
+        <item>@string/bhag_dharma_number       </item>
+        <item>@string/bhag_dharma_email        </item>
+        <item>@string/bhag_sah_dharmajagaran_pra</item>
+        <item>@string/bhag_sah_dharma_name     </item>
+        <item>@string/bhag_sah_dharma_number   </item>
+        <item>@string/bhag_sah_dharma_email    </item>
+        <item>@string/bhag_ghosh_pra            </item>
+        <item>@string/bhag_ghosh_name          </item>
+        <item>@string/bhag_ghosh_number        </item>
+        <item>@string/bhag_ghosh_email         </item>
+        <item>@string/bhag_sadasya1             </item>
+        <item>@string/bhag_sadasya_name        </item>
+        <item>@string/bhag_sadasya_number      </item>
+        <item>@string/bhag_sadasya_email       </item>
+        <item>@string/bhag_kutumb_prabodhan_pra </item>
+        <item>@string/bhag_kutumba_name        </item>
+        <item>@string/bhag_kutumba_number      </item>
+        <item>@string/bhag_kutumba_email       </item>
+        <item>@string/bhag_gramvikas_pra        </item>
+        <item>@string/bhag_gram_name           </item>
+        <item>@string/bhag_gram_number         </item>
+        <item>@string/bhag_gram_email          </item>
+        <item>@string/bhag_go_seva_pra          </item>
+        <item>@string/bhag_gouseva_name        </item>
+        <item>@string/bhag_gouseva_number      </item>
+        <item>@string/bhag_gouseva_email       </item>
+        <item>@string/bhag_samarasata_pra       </item>
+        <item>@string/bhag_samarasata_name     </item>
+        <item>@string/bhag_samarasata_number   </item>
+        <item>@string/bhag_samarasata_email    </item>
+    </string-array>
 
 </resources>

@@ -47,26 +47,7 @@
         ]]>
     </string>
 
-    <string name="bhag_sanghachalak">मा. भाग संघचालक</string>
-    <string name="bhag_karyavaah">भाग कार्यवाह</string>
-    <string name="bhag_sahkaryavaah">भाग सह कार्यवाह</string>
-    <string name="bhag_sha_shi_pra">भाग शारीरिक शिक्षण प्रमुख</string>
-    <string name="bhag_bauddhik_pra">भाग बौद्धिक प्रमुख</string>
-    <string name="bhag_vyavastha_pra">भाग व्यवथा प्रमुख</string>
-    <string name="bhag_karyalay_pra">भाग कार्यालय प्रमुख</string>
-    <string name="bhag_maha_vid_pra">भाग महावियालयीन वियार्थी प्रमुख</string>
-    <string name="bhag_it_vyavsayi_pra">भाग आय. टी. वयावसायी प्रमुख</string>
-    <string name="bhag_seva_shikshan_pra">भाग सेवा शिक्षण प्रमुख</string>
-    <string name="bhag_prachar_pra">भाग प्रचार प्रमुख</string>
-    <string name="bhag_sampark_pra">भाग संपर्क प्रमुख</string>
-    <string name="bhag_dharmajagaran_pra">भाग धर्मजागरण प्रमुख</string>
-    <string name="bhag_sah_dharmajagaran_pra">भाग सह धर्मजागरण प्रमुख</string>
-    <string name="bhag_ghosh_pra">भाग घोष प्रमुख</string>
-    <string name="bhag_kutumb_prabodhan_pra">कुटुंब प्रबोधन</string>
-    <string name="bhag_gramvikas_pra">ग्रामविकास</string>
-    <string name="bhag_go_seva_pra">गोसेवा</string>
-    <string name="bhag_samarasata_pra">समरसता</string>
-    <string name="bhag_sadasya1">भाग कार्यकारिणी सदस्य</string>
+
 
     <string name="nagar_sanghachalak">मा. नगर संघचालक</string>
     <string name="nagar_karyavaah">नगर कार्यवाह</string>
@@ -80,6 +61,7 @@
     <string name="nagar_seva_shikshan_pra">नगर सेवा शिक्षण प्रमुख</string>
     <string name="nagar_prachar_pra">नगर प्रचार प्रमुख</string>
     <string name="nagar_sampark_pra">नगर संपर्क प्रमुख</string>
+    <string name="nagar_sah_samparka_pra">नगर सह-संपर्क प्रमुख</string>
     <string name="nagar_dharmajagaran_pra">नगर धर्मजागरण प्रमुख</string>
     <string name="nagar_sah_dharmajagaran_pra">नगर सह-धर्मजागरण प्रमुख</string>
     <string name="nagar_vyavasayi_pra">नगर व्यवसायी प्रमुख</string>
