@@ -88,8 +88,47 @@
     <string name="wad_karyavah_number">9021524465</string>
     <string name="wad_karyavah_email">gakulkarni70@gmail.com</string>
     <string name="wad_sahkar_name">परमेश्वर लचमैय्या तेलंग</string>
-    <string name="wad_sahkar_number">8975444474</string>
+    <string name="wad_sahkar_number">८९७५४४४४७४, ८६००१४४४८४</string>
     <string name="wad_sahkar_email">param1369@yahoo.co.in </string>
+    <string name="wad_sahshi_name">श्री. विशाल विद्याधर कडूसकर</string>
+    <string name="wad_sahshi_number">९९२१५१९७५०</string>
+    <string name="wad_sahshi_email"></string>
+    <string name="wad_boupra_name">श्री. राजेंद्र आनंद देशपांडे</string>
+    <string name="wad_boupra_number">९८९०४५२५१५</string>
+    <string name="wad_boupra_email"></string>
+    <string name="wad_mahav_name">श्री. अमोघ सुनिल तायडे</string>
+    <string name="wad_mahav_number">८४४६६२६९५४</string>
+    <string name="wad_mahav_email">tayade.amogh@gmail.com</string>
+    <string name="wad_vyavastha_name">श्री. अनिल सर्जेराव अभंग</string>
+    <string name="wad_vyavastha_number">८२३७१६०१६०</string>
+    <string name="wad_vyavastha_email">abhang.anil@gmail.com</string>
+    <string name="wad_sah_vyavastha_name">श्री. योगेश किसन पर्‍हाड</string>
+    <string name="wad_sah_vyavastha_number">९०२८८१०८१०</string>
+    <string name="wad_sah_vyavastha_email"></string>
+    <string name="wad_samparka_name">श्री. सुनिल कृष्णराव तायडे</string>
+    <string name="wad_samparka_number">९८२२३०३७९०</string>
+    <string name="wad_samparka_email"></string>
+    <string name="wad_sah_samparka_name">श्री. धनराज मोतीलाल सानप</string>
+    <string name="wad_sah_samparka_number">९२६०४९०३२०</string>
+    <string name="wad_sah_samparka_email"></string>
+    <string name="wad_vyavasayi_name">श्री. सुदर्शन सुधाकर देशपांडे</string>
+    <string name="wad_vyavasayi_number">९८२२०५७६०१</string>
+    <string name="wad_vyavasayi_email"></string>
+    <string name="wad_seva_name">श्री. मंदार विश्वनाथ पारखी</string>
+    <string name="wad_seva_number">९८२३५३९११७</string>
+    <string name="wad_seva_email"></string>
+    <string name="wad_prachar_name">श्री. प्रदिप वामनराव बक्षी</string>
+    <string name="wad_prachar_number">9167220783</string>
+    <string name="wad_prachar_email"></string>
+    <string name="wad_dharma_name">श्री. मनोज दत्ताराम उत्तेकर</string>
+    <string name="wad_dharma_number">८१४९१४१५१४</string>
+    <string name="wad_dharma_email"></string>
+    <string name="wad_sadasya_name">श्री. केदार बबनराव जगताप</string>
+    <string name="wad_sadasya_number">९८८१२५३२५४</string>
+    <string name="wad_sadasya_email">kedar.jagtap@yahoo.com</string>
+    <string name="wad_sadasya1_name">श्री. ज्ञानेश्वर जालिंदर शेंडे</string>
+    <string name="wad_sadasya1_number">९८२२८९३४४०</string>
+    <string name="wad_sadasya1_email"></string>
 
     <string name="dha_kar_name">श्री. कौस्तुभ गणेश कुलकर्णी</string>
     <string name="dha_kar_number">9372479881</string>
@@ -97,6 +136,34 @@
     <string name="dha_sahkar_name">श्री. अमित कांतीलाल ओझा</string>
     <string name="dha_sahkar_number">9766687779</string>
     <string name="dha_sahkar_email">Amitkoza@gmail.com</string>
+
+    <string name="dha_sahshi_name">श्री. सौरभ प्रसन्न अध्यापक</string>
+    <string name="dha_sahshi_number">9763353430</string>
+    <string name="dha_sahshi_email"></string>
+    <string name="dha_boupra_name">श्री. देवेंद्र पुरुषोत्तम कुलकर्णी</string>
+    <string name="dha_boupra_number">9325367430</string>
+    <string name="dha_boupra_email"></string>
+    <string name="dha_mahav_name">श्री. निलेश उद्धवराव देशमुख</string>
+    <string name="dha_mahav_number">9822332080</string>
+    <string name="dha_mahav_email"></string>
+    <string name="dha_vyavastha_name">श्री. अभय दिनकरराव बाराहाते</string>
+    <string name="dha_vyavastha_number">9890647929</string>
+    <string name="dha_vyavastha_email">abhay.barahate@gmail.com</string>
+    <string name="dha_vyavasayi_name">श्री. अवधूत श्रीनिवास फौजदार</string>
+    <string name="dha_vyavasayi_number">9860186377</string>
+    <string name="dha_vyavasayi_email">Avdhootphoujdar@gmail.com</string>
+    <string name="dha_seva_name">श्री. भूषण विजय रानडे</string>
+    <string name="dha_seva_number">9923560138</string>
+    <string name="dha_seva_email"></string>
+    <string name="dha_prachar_name">श्री. ओंकार लक्ष्मीकांत देशपांडे</string>
+    <string name="dha_prachar_number">7588851443</string>
+    <string name="dha_prachar_email"></string>
+    <string name="dha_dharma_name">श्री. प्रशांत विजय करमरकर</string>
+    <string name="dha_dharma_number">9881242127</string>
+    <string name="dha_dharma_email"></string>
+    <string name="dha_sadasya_name">श्री. दीपरत्नाकर अंजनीकर </string>
+    <string name="dha_sadasya_number">8600108508</string>
+    <string name="dha_sadasya_email">ratnakar.desai@gmail.com</string>
 
     <string name="nad_karyavah_name">श्री. सुधीर शंकर काळकर</string>
     <string name="nad_karyavah_number">9867562216</string>
@@ -259,6 +326,58 @@
         <item>@string/wad_sahkar_name</item>
         <item>@string/wad_sahkar_number</item>
         <item>@string/wad_sahkar_email</item>
+        <item>@string/nagar_sha_shi_pra</item>
+        <item>@string/wad_sahshi_name</item>
+        <item>@string/wad_sahshi_number</item>
+        <item>@string/wad_sahshi_email</item>
+        <item>@string/nagar_bauddhik_pra</item>
+        <item>@string/wad_boupra_name</item>
+        <item>@string/wad_boupra_number</item>
+        <item>@string/wad_boupra_email</item>
+        <item>@string/nagar_maha_vid_pra</item>
+        <item>@string/wad_mahav_name</item>
+        <item>@string/wad_mahav_number</item>
+        <item>@string/wad_mahav_email</item>
+        <item>@string/nagar_vyavastha_pra</item>
+        <item>@string/wad_vyavastha_name</item>
+        <item>@string/wad_vyavastha_number</item>
+        <item>@string/wad_vyavastha_email</item>
+        <item>@string/nagar_sah_vyavastha_pra</item>
+        <item>@string/wad_sah_vyavastha_name</item>
+        <item>@string/wad_sah_vyavastha_number</item>
+        <item>@string/wad_sah_vyavastha_email</item>
+        <item>@string/nagar_sampark_pra</item>
+        <item>@string/wad_samparka_name</item>
+        <item>@string/wad_samparka_number</item>
+        <item>@string/wad_samparka_email</item>
+        <item>@string/nagar_sah_samparka_pra</item>
+        <item>@string/wad_sah_samparka_name</item>
+        <item>@string/wad_sah_samparka_number</item>
+        <item>@string/wad_sah_samparka_email</item>
+        <item>@string/nagar_vyavasayi_pra</item>
+        <item>@string/wad_vyavasayi_name</item>
+        <item>@string/wad_vyavasayi_number</item>
+        <item>@string/wad_vyavasayi_email</item>
+        <item>@string/nagar_seva_shikshan_pra</item>
+        <item>@string/wad_seva_name</item>
+        <item>@string/wad_seva_number</item>
+        <item>@string/wad_seva_email</item>
+        <item>@string/nagar_prachar_pra</item>
+        <item>@string/wad_prachar_name</item>
+        <item>@string/wad_prachar_number</item>
+        <item>@string/wad_prachar_email</item>
+        <item>@string/nagar_dharmajagaran_pra</item>
+        <item>@string/wad_dharma_name</item>
+        <item>@string/wad_dharma_number</item>
+        <item>@string/wad_dharma_email</item>
+        <item>@string/nagar_sadasya</item>
+        <item>@string/wad_sadasya_name</item>
+        <item>@string/wad_sadasya_number</item>
+        <item>@string/wad_sadasya_email</item>
+        <item>@string/nagar_sadasya</item>
+        <item>@string/wad_sadasya1_name</item>
+        <item>@string/wad_sadasya1_number</item>
+        <item>@string/wad_sadasya1_email</item>
         <item>@string/blank_item</item>
         <item>@string/dhayari_nagar_text</item>
         <item>@string/blank_item</item>
@@ -271,6 +390,43 @@
         <item>@string/dha_sahkar_name</item>
         <item>@string/dha_sahkar_number</item>
         <item>@string/dha_sahkar_email</item>
+        <item>@string/nagar_sha_shi_pra</item>
+        <item>@string/dha_sahshi_name</item>
+        <item>@string/dha_sahshi_number</item>
+        <item>@string/dha_sahshi_email</item>
+        <item>@string/nagar_bauddhik_pra</item>
+        <item>@string/dha_boupra_name</item>
+        <item>@string/dha_boupra_number</item>
+        <item>@string/dha_boupra_email</item>
+        <item>@string/nagar_maha_vid_pra</item>
+        <item>@string/dha_mahav_name</item>
+        <item>@string/dha_mahav_number</item>
+        <item>@string/dha_mahav_email</item>
+        <item>@string/nagar_vyavastha_pra</item>
+        <item>@string/dha_vyavastha_name</item>
+        <item>@string/dha_vyavastha_number</item>
+        <item>@string/dha_vyavastha_email</item>
+        <item>@string/nagar_vyavasayi_pra</item>
+        <item>@string/dha_vyavasayi_name</item>
+        <item>@string/dha_vyavasayi_number</item>
+        <item>@string/dha_vyavasayi_email</item>
+        <item>@string/nagar_seva_shikshan_pra</item>
+        <item>@string/dha_seva_name</item>
+        <item>@string/dha_seva_number</item>
+        <item>@string/dha_seva_email</item>
+        <item>@string/nagar_prachar_pra</item>
+        <item>@string/dha_prachar_name</item>
+        <item>@string/dha_prachar_number</item>
+        <item>@string/dha_prachar_email</item>
+        <item>@string/nagar_dharmajagaran_pra</item>
+        <item>@string/dha_dharma_name</item>
+        <item>@string/dha_dharma_number</item>
+        <item>@string/dha_dharma_email</item>
+        <item>@string/nagar_vasti_pra</item>
+        <item>@string/dha_sadasya_name</item>
+        <item>@string/dha_sadasya_number</item>
+        <item>@string/dha_sadasya_email</item>
+
         <item>@string/blank_item</item>
         <item>@string/nanded_nagar_text</item>
         <item>@string/blank_item</item>

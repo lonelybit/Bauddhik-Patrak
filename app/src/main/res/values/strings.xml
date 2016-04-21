@@ -66,6 +66,8 @@
     <string name="nagar_sah_dharmajagaran_pra">नगर सह-धर्मजागरण प्रमुख</string>
     <string name="nagar_vyavasayi_pra">नगर व्यवसायी प्रमुख</string>
     <string name="nagar_ghosh_pra">नगर घोष प्रमुख</string>
+    <string name="nagar_sadasya">नगर का. सदस्य </string>
+    <string name="nagar_vasti_pra">नगर वस्ती विषय प्रमुख </string>
 
     <string name="mh_sanghachalak">मा. महानगर संघचालक</string>
     <string name="mh_karyavah">महानगर कार्यवाह</string>
