@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity
                 bodhkatha_txt = getResources().getString(R.string.april_2016_bodhkatha);
                 vrutta_txt = getResources().getString(R.string.april_2016_nirop);
                 karyakram_txt = getResources().getString(R.string.april_2016_karyakram);
-                vicharmanthan_txt = getResources().getString(R.string.home_page_txt);
+                vicharmanthan_txt = getResources().getString(R.string.april_2016_manthan);
                 updateMainPageTitle(R.string.april_2016);
 
                 break;
@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity
                 bodhkatha_txt = getResources().getString(R.string.may_2016_bodhkatha);
                 vrutta_txt = getResources().getString(R.string.may_2016_nirop);
                 karyakram_txt = getResources().getString(R.string.may_2016_karyakram);
-                vicharmanthan_txt = getResources().getString(R.string.home_page_txt);
+                vicharmanthan_txt = getResources().getString(R.string.may_2016_manthan);
                 updateMainPageTitle(R.string.may_2016);
 
                 break;
