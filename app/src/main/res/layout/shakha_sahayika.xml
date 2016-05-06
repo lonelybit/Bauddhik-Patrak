@@ -26,7 +26,7 @@
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <LinearLayout
@@ -132,6 +132,24 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:id="@+id/khel_txt"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@android:color/black"
+                            android:text="This is tab 2" />
+                    </ScrollView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/prarthana_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/prarthana_txt"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textColor="@android:color/black"
                             android:text="This is tab 2" />

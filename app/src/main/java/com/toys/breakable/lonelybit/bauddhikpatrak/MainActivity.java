@@ -61,8 +61,9 @@ public class MainActivity extends AppCompatActivity
 
                                 String developer1 = getResources().getString(R.string.developer_email_1);
                                 String developer2 = getResources().getString(R.string.developer_email_2);
+                                String developer3 = getResources().getString(R.string.bhag_boupra_email);
                                 i.setType("plain/text");
-                                i.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{developer1, developer2});
+                                i.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{developer1, developer2, developer3});
                                 i.putExtra(android.content.Intent.EXTRA_SUBJECT, subject);
                                 //i.putExtra(android.content.Intent.EXTRA_TEXT, text);
                                 startActivity(Intent.createChooser(i, "Send email..."));
@@ -374,6 +375,14 @@ public class MainActivity extends AppCompatActivity
         TextView vKhelContents = (TextView)findViewById(R.id.khel_txt);
         vKhelContents.setText(R.string.khel);
         spec.setIndicator("खेळ");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("प्रार्थना");
+        spec.setContent(R.id.prarthana_tab);
+        TextView vPrarthanaContents = (TextView)findViewById(R.id.prarthana_txt);
+        vPrarthanaContents.setText(R.string.prarthana);
+        spec.setIndicator("प्रार्थना");
         host.addTab(spec);
 
 
